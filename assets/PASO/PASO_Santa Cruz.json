@@ -1,0 +1,4172 @@
+{
+    "mapa": [
+        {
+            "level": 4.0,
+            "scopes": [
+                {
+                    "scopeId": "000000000000000000030d76",
+                    "name": "Corpen Aike",
+                    "codigo": "20005",
+                    "envio": 127.0,
+                    "abstencion": 3050.0,
+                    "afirmativos": 5885.0,
+                    "blancos": 2608.0,
+                    "census": 11598.0,
+                    "comando": 5.0,
+                    "electores": 7545.0,
+                    "impugnados": 0.0,
+                    "nulos": 50.0,
+                    "numStation": 42.0,
+                    "partidos": [
+                        {
+                            "name": "LA LIBERTAD AVANZA",
+                            "code": "135",
+                            "codTel": "135",
+                            "codLogo": "000135",
+                            "color": "#AABBAA",
+                            "votos": 2477.0,
+                            "perc": 29.16,
+                            "percCarg": 29.16,
+                            "listas": [
+                                {
+                                    "code": "3016",
+                                    "nombre": "A- LIBERTAD POR SIEMPRE",
+                                    "candidatos": [
+                                        "JAVIER GERARDO MILEI",
+                                        "VICTORIA VILLARRUEL"
+                                    ],
+                                    "votos": 2477.0,
+                                    "perc": 100.0,
+                                    "percAbs": 29.16
+                                }
+                            ]
+                        },
+                        {
+                            "name": "UNION POR LA PATRIA",
+                            "code": "134",
+                            "codTel": "134",
+                            "codLogo": "000134",
+                            "color": "#AABBAA",
+                            "votos": 1978.0,
+                            "perc": 23.28,
+                            "percCarg": 23.28,
+                            "listas": [
+                                {
+                                    "code": "3005",
+                                    "nombre": "A- CELESTE Y BLANCA",
+                                    "candidatos": [
+                                        "SERGIO TOMAS MASSA",
+                                        "AGUSTIN ROSSI"
+                                    ],
+                                    "votos": 1617.0,
+                                    "perc": 81.74,
+                                    "percAbs": 19.03
+                                },
+                                {
+                                    "code": "3006",
+                                    "nombre": "B- JUSTA Y SOBERANA",
+                                    "candidatos": [
+                                        "JUAN GRABOIS",
+                                        "PAULA ABAL MEDINA"
+                                    ],
+                                    "votos": 361.0,
+                                    "perc": 18.25,
+                                    "percAbs": 4.25
+                                }
+                            ]
+                        },
+                        {
+                            "name": "JUNTOS POR EL CAMBIO",
+                            "code": "132",
+                            "codTel": "132",
+                            "codLogo": "000132",
+                            "color": "#AABBAA",
+                            "votos": 1207.0,
+                            "perc": 14.21,
+                            "percCarg": 14.21,
+                            "listas": [
+                                {
+                                    "code": "3008",
+                                    "nombre": "B- LA FUERZA DEL CAMBIO",
+                                    "candidatos": [
+                                        "PATRICIA BULLRICH",
+                                        "LUIS PETRI"
+                                    ],
+                                    "votos": 874.0,
+                                    "perc": 72.41,
+                                    "percAbs": 10.29
+                                },
+                                {
+                                    "code": "3007",
+                                    "nombre": "A- EL CAMBIO DE NUESTRAS VIDAS",
+                                    "candidatos": [
+                                        "HORACIO ANTONIO RODRIGUEZ LARRETA",
+                                        "GERARDO MORALES"
+                                    ],
+                                    "votos": 333.0,
+                                    "perc": 27.58,
+                                    "percAbs": 3.92
+                                }
+                            ]
+                        },
+                        {
+                            "name": "HACEMOS POR NUESTRO PAIS",
+                            "code": "133",
+                            "codTel": "133",
+                            "codLogo": "000133",
+                            "color": "#AABBAA",
+                            "votos": 91.0,
+                            "perc": 1.07,
+                            "percCarg": 1.07,
+                            "listas": [
+                                {
+                                    "code": "3001",
+                                    "nombre": "A- HACEMOS",
+                                    "candidatos": [
+                                        "JUAN SCHIARETTI",
+                                        "FLORENCIO RANDAZZO"
+                                    ],
+                                    "votos": 91.0,
+                                    "perc": 100.0,
+                                    "percAbs": 1.07
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD",
+                            "code": "136",
+                            "codTel": "136",
+                            "codLogo": "000136",
+                            "color": "#AABBAA",
+                            "votos": 78.0,
+                            "perc": 0.91,
+                            "percCarg": 0.91,
+                            "listas": [
+                                {
+                                    "code": "3009",
+                                    "nombre": "A- UNIR Y FORTALECER LA IZQUIERDA",
+                                    "candidatos": [
+                                        "MYRIAM TERESA BREGMAN",
+                                        "NICOLAS DEL CAÑO"
+                                    ],
+                                    "votos": 53.0,
+                                    "perc": 67.94,
+                                    "percAbs": 0.62
+                                },
+                                {
+                                    "code": "3010",
+                                    "nombre": "B- UNIDAD DE LUCHADORES Y LA IZQUIERDA",
+                                    "candidatos": [
+                                        "GABRIEL ESTEBAN SOLANO",
+                                        "VILMA RIPOLL"
+                                    ],
+                                    "votos": 25.0,
+                                    "perc": 32.05,
+                                    "percAbs": 0.29
+                                }
+                            ]
+                        },
+                        {
+                            "name": "POLITICA OBRERA",
+                            "code": "92",
+                            "codTel": "92",
+                            "codLogo": "000092",
+                            "color": "#AABBAA",
+                            "votos": 13.0,
+                            "perc": 0.15,
+                            "percCarg": 0.15,
+                            "listas": [
+                                {
+                                    "code": "3020",
+                                    "nombre": "A- UNIDAD OBRERA",
+                                    "candidatos": [
+                                        "MARCELO ARMANDO RAMAL",
+                                        "PATRICIA URONES"
+                                    ],
+                                    "votos": 13.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.15
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO AL SOCIALISMO",
+                            "code": "13",
+                            "codTel": "13",
+                            "codLogo": "000013",
+                            "color": "#AABBAA",
+                            "votos": 12.0,
+                            "perc": 0.14,
+                            "percCarg": 0.14,
+                            "listas": [
+                                {
+                                    "code": "3017",
+                                    "nombre": "A- IZQUIERDA ANTICAPITALISTA",
+                                    "candidatos": [
+                                        "MANUELA JIMENA CASTAÑEIRA",
+                                        "LUCAS RUIZ"
+                                    ],
+                                    "votos": 12.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.14
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD",
+                            "code": "90",
+                            "codTel": "90",
+                            "codLogo": "000090",
+                            "color": "#AABBAA",
+                            "votos": 11.0,
+                            "perc": 0.12,
+                            "percCarg": 0.12,
+                            "listas": [
+                                {
+                                    "code": "3027",
+                                    "nombre": "B- CONFEDERAL",
+                                    "candidatos": [
+                                        "GABRIEL SANTIAGO CÚNEO",
+                                        "GUSTAVO BARRANCO"
+                                    ],
+                                    "votos": 11.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.12
+                                },
+                                {
+                                    "code": "3026",
+                                    "nombre": "A- DIGNIDAD",
+                                    "candidatos": [
+                                        "RAUL ANIBAL CASTELLS",
+                                        "ADRIANA REINOSO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE PATRIOTA FEDERAL",
+                            "code": "95",
+                            "codTel": "95",
+                            "codLogo": "000095",
+                            "color": "#AABBAA",
+                            "votos": 8.0,
+                            "perc": 0.09,
+                            "percCarg": 0.09,
+                            "listas": [
+                                {
+                                    "code": "3021",
+                                    "nombre": "A- PRIMERO LA PATRIA",
+                                    "candidatos": [
+                                        "ALEJANDRO CESAR BIONDINI",
+                                        "MARIEL AVENDAÑO"
+                                    ],
+                                    "votos": 8.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.09
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO LIBRES DEL SUR",
+                            "code": "40",
+                            "codTel": "40",
+                            "codLogo": "000040",
+                            "color": "#AABBAA",
+                            "votos": 6.0,
+                            "perc": 0.07,
+                            "percCarg": 0.07,
+                            "listas": [
+                                {
+                                    "code": "3019",
+                                    "nombre": "A- AZUL Y ROJO",
+                                    "candidatos": [
+                                        "JESUS ARNALDO ESCOBAR",
+                                        "MARIANELLA LEZAMA HID"
+                                    ],
+                                    "votos": 6.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.07
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO DE ACCION VECINAL",
+                            "code": "57",
+                            "codTel": "57",
+                            "codLogo": "000057",
+                            "color": "#AABBAA",
+                            "votos": 3.0,
+                            "perc": 0.03,
+                            "percCarg": 0.03,
+                            "listas": [
+                                {
+                                    "code": "3025",
+                                    "nombre": "A- COMPROMISO VECINAL",
+                                    "candidatos": [
+                                        "RAUL HUMBERTO ALBARRACIN",
+                                        "SERGIO PASTORE"
+                                    ],
+                                    "votos": 3.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.03
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PRINCIPIOS Y VALORES",
+                            "code": "137",
+                            "codTel": "137",
+                            "codLogo": "000137",
+                            "color": "#AABBAA",
+                            "votos": 1.0,
+                            "perc": 0.01,
+                            "percCarg": 0.01,
+                            "listas": [
+                                {
+                                    "code": "3011",
+                                    "nombre": "1A- TIERRA, TECHO  Y TRABAJO",
+                                    "candidatos": [
+                                        "MARIO GUILLERMO MORENO",
+                                        "LEONARDO RUBEN FABRE"
+                                    ],
+                                    "votos": 1.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.01
+                                },
+                                {
+                                    "code": "3012",
+                                    "nombre": "2B- TRANSFORMAR",
+                                    "candidatos": [
+                                        "ELIODORO MARTINEZ",
+                                        "VICENTE SOUTO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3013",
+                                    "nombre": "3C- TRES BANDERAS",
+                                    "candidatos": [
+                                        "JORGE EDUARDO OLIVER",
+                                        "EZEQUIEL BRITOS SAN MARTIN"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3014",
+                                    "nombre": "4D- GENTE DE TRABAJO",
+                                    "candidatos": [
+                                        "CARINA PAOLA BARTOLINI",
+                                        "MABEL GOMEZ"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3015",
+                                    "nombre": "5E- LABORISTA",
+                                    "candidatos": [
+                                        "PAULA LORENA ARIAS",
+                                        "WALTER VERA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE LIBER.AR",
+                            "code": "131",
+                            "codTel": "131",
+                            "codLogo": "000131",
+                            "color": "#AABBAA",
+                            "votos": 0.0,
+                            "perc": 0.0,
+                            "percCarg": 0.0,
+                            "listas": [
+                                {
+                                    "code": "3002",
+                                    "nombre": "A- DEMOS",
+                                    "candidatos": [
+                                        "NAZARENO GABRIEL ETCHEPARE",
+                                        "FERNANDO LORENZO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3003",
+                                    "nombre": "B- RECONQUISTA",
+                                    "candidatos": [
+                                        "RAMIRO EDUARDO VASENA",
+                                        "VICTOR LAGONEGRO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3004",
+                                    "nombre": "C- ANTICORRUPCIÓN",
+                                    "candidatos": [
+                                        "JULIO DONATO BARBARO",
+                                        "RAMONA PUCHETA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PROYECTO JOVEN",
+                            "code": "94",
+                            "codTel": "94",
+                            "codLogo": "000094",
+                            "color": "#AABBAA",
+                            "votos": 0.0,
+                            "perc": 0.0,
+                            "percCarg": 0.0,
+                            "listas": [
+                                {
+                                    "code": "3022",
+                                    "nombre": "A- COALICION PAZ DEMOCRACIA SOBERANIA",
+                                    "candidatos": [
+                                        "OSCAR ALFREDO RAMON GIARDINELLI",
+                                        "BARBARA MARA SOLERNOU GALLARDO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3023",
+                                    "nombre": "B- PATRIA UNIDA",
+                                    "candidatos": [
+                                        "MARTIN MIGUEL AYERBE ORTIZ",
+                                        "HUGO MAURICIO EZEQUIEL RODRIGUEZ"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3024",
+                                    "nombre": "C- TODEX",
+                                    "candidatos": [
+                                        "REINA XIOMARA IBAÑEZ",
+                                        "GONZALO RODRIGO IBARRA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "UNION DEL CENTRO DEMOCRATICO",
+                            "code": "20",
+                            "codTel": "20",
+                            "codLogo": "000020",
+                            "color": "#AABBAA",
+                            "votos": 0.0,
+                            "perc": 0.0,
+                            "percCarg": 0.0,
+                            "listas": [
+                                {
+                                    "code": "3018",
+                                    "nombre": "A- APERTURA LIBERAL ARGENTINA",
+                                    "candidatos": [
+                                        "ANDRES GABRIEL PASSAMONTI",
+                                        "PAMELA FERNANDEZ"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        }
+                    ],
+                    "participation": 73.7,
+                    "percAbstencion": 26.29,
+                    "percAfirmativos": 68.84,
+                    "percBlancos": 30.51,
+                    "percComando": 0.05,
+                    "percImpugnados": 0.0,
+                    "percNulos": 0.58,
+                    "percRecImpCom": 0.05,
+                    "percRecurridos": 0.0,
+                    "percValid": 99.35,
+                    "pollingCensus": 11598.0,
+                    "pollingNumStation": 42.0,
+                    "pollingPercStation": 100.0,
+                    "recImpCom": 5.0,
+                    "recurridos": 0.0,
+                    "sobres": 7545.0,
+                    "totalVotos": 8548.0,
+                    "valid": 8493.0,
+                    "umbral": 0.0,
+                    "calcPerc": "V",
+                    "showCargos": 1.0,
+                    "isCircus": 1.0
+                },
+                {
+                    "scopeId": "000000000000000000030d4e",
+                    "name": "Deseado",
+                    "codigo": "20001",
+                    "envio": 127.0,
+                    "abstencion": 31406.0,
+                    "afirmativos": 43591.0,
+                    "blancos": 22639.0,
+                    "census": 100131.0,
+                    "comando": 145.0,
+                    "electores": 44497.0,
+                    "impugnados": 25.0,
+                    "nulos": 1089.0,
+                    "numStation": 342.0,
+                    "partidos": [
+                        {
+                            "name": "LA LIBERTAD AVANZA",
+                            "code": "135",
+                            "codTel": "135",
+                            "codLogo": "000135",
+                            "color": "#AABBAA",
+                            "votos": 19147.0,
+                            "perc": 28.9,
+                            "percCarg": 28.9,
+                            "listas": [
+                                {
+                                    "code": "3016",
+                                    "nombre": "A- LIBERTAD POR SIEMPRE",
+                                    "candidatos": [
+                                        "JAVIER GERARDO MILEI",
+                                        "VICTORIA VILLARRUEL"
+                                    ],
+                                    "votos": 19147.0,
+                                    "perc": 100.0,
+                                    "percAbs": 28.9
+                                }
+                            ]
+                        },
+                        {
+                            "name": "UNION POR LA PATRIA",
+                            "code": "134",
+                            "codTel": "134",
+                            "codLogo": "000134",
+                            "color": "#AABBAA",
+                            "votos": 11890.0,
+                            "perc": 17.95,
+                            "percCarg": 17.95,
+                            "listas": [
+                                {
+                                    "code": "3005",
+                                    "nombre": "A- CELESTE Y BLANCA",
+                                    "candidatos": [
+                                        "SERGIO TOMAS MASSA",
+                                        "AGUSTIN ROSSI"
+                                    ],
+                                    "votos": 9167.0,
+                                    "perc": 77.09,
+                                    "percAbs": 13.84
+                                },
+                                {
+                                    "code": "3006",
+                                    "nombre": "B- JUSTA Y SOBERANA",
+                                    "candidatos": [
+                                        "JUAN GRABOIS",
+                                        "PAULA ABAL MEDINA"
+                                    ],
+                                    "votos": 2723.0,
+                                    "perc": 22.9,
+                                    "percAbs": 4.11
+                                }
+                            ]
+                        },
+                        {
+                            "name": "JUNTOS POR EL CAMBIO",
+                            "code": "132",
+                            "codTel": "132",
+                            "codLogo": "000132",
+                            "color": "#AABBAA",
+                            "votos": 8643.0,
+                            "perc": 13.04,
+                            "percCarg": 13.04,
+                            "listas": [
+                                {
+                                    "code": "3008",
+                                    "nombre": "B- LA FUERZA DEL CAMBIO",
+                                    "candidatos": [
+                                        "PATRICIA BULLRICH",
+                                        "LUIS PETRI"
+                                    ],
+                                    "votos": 5043.0,
+                                    "perc": 58.34,
+                                    "percAbs": 7.61
+                                },
+                                {
+                                    "code": "3007",
+                                    "nombre": "A- EL CAMBIO DE NUESTRAS VIDAS",
+                                    "candidatos": [
+                                        "HORACIO ANTONIO RODRIGUEZ LARRETA",
+                                        "GERARDO MORALES"
+                                    ],
+                                    "votos": 3600.0,
+                                    "perc": 41.65,
+                                    "percAbs": 5.43
+                                }
+                            ]
+                        },
+                        {
+                            "name": "HACEMOS POR NUESTRO PAIS",
+                            "code": "133",
+                            "codTel": "133",
+                            "codLogo": "000133",
+                            "color": "#AABBAA",
+                            "votos": 1700.0,
+                            "perc": 2.56,
+                            "percCarg": 2.56,
+                            "listas": [
+                                {
+                                    "code": "3001",
+                                    "nombre": "A- HACEMOS",
+                                    "candidatos": [
+                                        "JUAN SCHIARETTI",
+                                        "FLORENCIO RANDAZZO"
+                                    ],
+                                    "votos": 1700.0,
+                                    "perc": 100.0,
+                                    "percAbs": 2.56
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD",
+                            "code": "136",
+                            "codTel": "136",
+                            "codLogo": "000136",
+                            "color": "#AABBAA",
+                            "votos": 1243.0,
+                            "perc": 1.87,
+                            "percCarg": 1.87,
+                            "listas": [
+                                {
+                                    "code": "3009",
+                                    "nombre": "A- UNIR Y FORTALECER LA IZQUIERDA",
+                                    "candidatos": [
+                                        "MYRIAM TERESA BREGMAN",
+                                        "NICOLAS DEL CAÑO"
+                                    ],
+                                    "votos": 641.0,
+                                    "perc": 51.56,
+                                    "percAbs": 0.96
+                                },
+                                {
+                                    "code": "3010",
+                                    "nombre": "B- UNIDAD DE LUCHADORES Y LA IZQUIERDA",
+                                    "candidatos": [
+                                        "GABRIEL ESTEBAN SOLANO",
+                                        "VILMA RIPOLL"
+                                    ],
+                                    "votos": 602.0,
+                                    "perc": 48.43,
+                                    "percAbs": 0.9
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO LIBRES DEL SUR",
+                            "code": "40",
+                            "codTel": "40",
+                            "codLogo": "000040",
+                            "color": "#AABBAA",
+                            "votos": 381.0,
+                            "perc": 0.57,
+                            "percCarg": 0.57,
+                            "listas": [
+                                {
+                                    "code": "3019",
+                                    "nombre": "A- AZUL Y ROJO",
+                                    "candidatos": [
+                                        "JESUS ARNALDO ESCOBAR",
+                                        "MARIANELLA LEZAMA HID"
+                                    ],
+                                    "votos": 381.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.57
+                                }
+                            ]
+                        },
+                        {
+                            "name": "POLITICA OBRERA",
+                            "code": "92",
+                            "codTel": "92",
+                            "codLogo": "000092",
+                            "color": "#AABBAA",
+                            "votos": 162.0,
+                            "perc": 0.24,
+                            "percCarg": 0.24,
+                            "listas": [
+                                {
+                                    "code": "3020",
+                                    "nombre": "A- UNIDAD OBRERA",
+                                    "candidatos": [
+                                        "MARCELO ARMANDO RAMAL",
+                                        "PATRICIA URONES"
+                                    ],
+                                    "votos": 162.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.24
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD",
+                            "code": "90",
+                            "codTel": "90",
+                            "codLogo": "000090",
+                            "color": "#AABBAA",
+                            "votos": 146.0,
+                            "perc": 0.22,
+                            "percCarg": 0.22,
+                            "listas": [
+                                {
+                                    "code": "3027",
+                                    "nombre": "B- CONFEDERAL",
+                                    "candidatos": [
+                                        "GABRIEL SANTIAGO CÚNEO",
+                                        "GUSTAVO BARRANCO"
+                                    ],
+                                    "votos": 133.0,
+                                    "perc": 91.09,
+                                    "percAbs": 0.2
+                                },
+                                {
+                                    "code": "3026",
+                                    "nombre": "A- DIGNIDAD",
+                                    "candidatos": [
+                                        "RAUL ANIBAL CASTELLS",
+                                        "ADRIANA REINOSO"
+                                    ],
+                                    "votos": 13.0,
+                                    "perc": 8.9,
+                                    "percAbs": 0.01
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO AL SOCIALISMO",
+                            "code": "13",
+                            "codTel": "13",
+                            "codLogo": "000013",
+                            "color": "#AABBAA",
+                            "votos": 114.0,
+                            "perc": 0.17,
+                            "percCarg": 0.17,
+                            "listas": [
+                                {
+                                    "code": "3017",
+                                    "nombre": "A- IZQUIERDA ANTICAPITALISTA",
+                                    "candidatos": [
+                                        "MANUELA JIMENA CASTAÑEIRA",
+                                        "LUCAS RUIZ"
+                                    ],
+                                    "votos": 114.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.17
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE PATRIOTA FEDERAL",
+                            "code": "95",
+                            "codTel": "95",
+                            "codLogo": "000095",
+                            "color": "#AABBAA",
+                            "votos": 65.0,
+                            "perc": 0.09,
+                            "percCarg": 0.09,
+                            "listas": [
+                                {
+                                    "code": "3021",
+                                    "nombre": "A- PRIMERO LA PATRIA",
+                                    "candidatos": [
+                                        "ALEJANDRO CESAR BIONDINI",
+                                        "MARIEL AVENDAÑO"
+                                    ],
+                                    "votos": 65.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.09
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO DE ACCION VECINAL",
+                            "code": "57",
+                            "codTel": "57",
+                            "codLogo": "000057",
+                            "color": "#AABBAA",
+                            "votos": 49.0,
+                            "perc": 0.07,
+                            "percCarg": 0.07,
+                            "listas": [
+                                {
+                                    "code": "3025",
+                                    "nombre": "A- COMPROMISO VECINAL",
+                                    "candidatos": [
+                                        "RAUL HUMBERTO ALBARRACIN",
+                                        "SERGIO PASTORE"
+                                    ],
+                                    "votos": 49.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.07
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PRINCIPIOS Y VALORES",
+                            "code": "137",
+                            "codTel": "137",
+                            "codLogo": "000137",
+                            "color": "#AABBAA",
+                            "votos": 36.0,
+                            "perc": 0.05,
+                            "percCarg": 0.05,
+                            "listas": [
+                                {
+                                    "code": "3011",
+                                    "nombre": "1A- TIERRA, TECHO  Y TRABAJO",
+                                    "candidatos": [
+                                        "MARIO GUILLERMO MORENO",
+                                        "LEONARDO RUBEN FABRE"
+                                    ],
+                                    "votos": 36.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.05
+                                },
+                                {
+                                    "code": "3012",
+                                    "nombre": "2B- TRANSFORMAR",
+                                    "candidatos": [
+                                        "ELIODORO MARTINEZ",
+                                        "VICENTE SOUTO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3013",
+                                    "nombre": "3C- TRES BANDERAS",
+                                    "candidatos": [
+                                        "JORGE EDUARDO OLIVER",
+                                        "EZEQUIEL BRITOS SAN MARTIN"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3014",
+                                    "nombre": "4D- GENTE DE TRABAJO",
+                                    "candidatos": [
+                                        "CARINA PAOLA BARTOLINI",
+                                        "MABEL GOMEZ"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3015",
+                                    "nombre": "5E- LABORISTA",
+                                    "candidatos": [
+                                        "PAULA LORENA ARIAS",
+                                        "WALTER VERA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE LIBER.AR",
+                            "code": "131",
+                            "codTel": "131",
+                            "codLogo": "000131",
+                            "color": "#AABBAA",
+                            "votos": 12.0,
+                            "perc": 0.01,
+                            "percCarg": 0.01,
+                            "listas": [
+                                {
+                                    "code": "3002",
+                                    "nombre": "A- DEMOS",
+                                    "candidatos": [
+                                        "NAZARENO GABRIEL ETCHEPARE",
+                                        "FERNANDO LORENZO"
+                                    ],
+                                    "votos": 11.0,
+                                    "perc": 91.66,
+                                    "percAbs": 0.01
+                                },
+                                {
+                                    "code": "3004",
+                                    "nombre": "C- ANTICORRUPCIÓN",
+                                    "candidatos": [
+                                        "JULIO DONATO BARBARO",
+                                        "RAMONA PUCHETA"
+                                    ],
+                                    "votos": 1.0,
+                                    "perc": 8.33,
+                                    "percAbs": 0.01
+                                },
+                                {
+                                    "code": "3003",
+                                    "nombre": "B- RECONQUISTA",
+                                    "candidatos": [
+                                        "RAMIRO EDUARDO VASENA",
+                                        "VICTOR LAGONEGRO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "UNION DEL CENTRO DEMOCRATICO",
+                            "code": "20",
+                            "codTel": "20",
+                            "codLogo": "000020",
+                            "color": "#AABBAA",
+                            "votos": 2.0,
+                            "perc": 0.01,
+                            "percCarg": 0.01,
+                            "listas": [
+                                {
+                                    "code": "3018",
+                                    "nombre": "A- APERTURA LIBERAL ARGENTINA",
+                                    "candidatos": [
+                                        "ANDRES GABRIEL PASSAMONTI",
+                                        "PAMELA FERNANDEZ"
+                                    ],
+                                    "votos": 2.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.01
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PROYECTO JOVEN",
+                            "code": "94",
+                            "codTel": "94",
+                            "codLogo": "000094",
+                            "color": "#AABBAA",
+                            "votos": 1.0,
+                            "perc": 0.01,
+                            "percCarg": 0.01,
+                            "listas": [
+                                {
+                                    "code": "3022",
+                                    "nombre": "A- COALICION PAZ DEMOCRACIA SOBERANIA",
+                                    "candidatos": [
+                                        "OSCAR ALFREDO RAMON GIARDINELLI",
+                                        "BARBARA MARA SOLERNOU GALLARDO"
+                                    ],
+                                    "votos": 1.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.01
+                                },
+                                {
+                                    "code": "3023",
+                                    "nombre": "B- PATRIA UNIDA",
+                                    "candidatos": [
+                                        "MARTIN MIGUEL AYERBE ORTIZ",
+                                        "HUGO MAURICIO EZEQUIEL RODRIGUEZ"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3024",
+                                    "nombre": "C- TODEX",
+                                    "candidatos": [
+                                        "REINA XIOMARA IBAÑEZ",
+                                        "GONZALO RODRIGO IBARRA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        }
+                    ],
+                    "participation": 68.25,
+                    "percAbstencion": 31.74,
+                    "percAfirmativos": 64.54,
+                    "percBlancos": 33.52,
+                    "percComando": 0.21,
+                    "percImpugnados": 0.03,
+                    "percNulos": 1.61,
+                    "percRecImpCom": 0.31,
+                    "percRecurridos": 0.06,
+                    "percValid": 98.07,
+                    "pollingCensus": 98937.0,
+                    "pollingNumStation": 338.0,
+                    "pollingPercStation": 98.83,
+                    "recImpCom": 212.0,
+                    "recurridos": 42.0,
+                    "sobres": 44368.0,
+                    "totalVotos": 67531.0,
+                    "valid": 66230.0,
+                    "umbral": 0.0,
+                    "calcPerc": "V",
+                    "showCargos": 1.0,
+                    "isCircus": 1.0
+                },
+                {
+                    "scopeId": "000000000000000000030d8a",
+                    "name": "Güer Aike",
+                    "codigo": "20007",
+                    "envio": 127.0,
+                    "abstencion": 29570.0,
+                    "afirmativos": 55933.0,
+                    "blancos": 18908.0,
+                    "census": 106299.0,
+                    "comando": 1.0,
+                    "electores": 60330.0,
+                    "impugnados": 3.0,
+                    "nulos": 935.0,
+                    "numStation": 362.0,
+                    "partidos": [
+                        {
+                            "name": "LA LIBERTAD AVANZA",
+                            "code": "135",
+                            "codTel": "135",
+                            "codLogo": "000135",
+                            "color": "#AABBAA",
+                            "votos": 21481.0,
+                            "perc": 28.7,
+                            "percCarg": 28.7,
+                            "listas": [
+                                {
+                                    "code": "3016",
+                                    "nombre": "A- LIBERTAD POR SIEMPRE",
+                                    "candidatos": [
+                                        "JAVIER GERARDO MILEI",
+                                        "VICTORIA VILLARRUEL"
+                                    ],
+                                    "votos": 21481.0,
+                                    "perc": 100.0,
+                                    "percAbs": 28.7
+                                }
+                            ]
+                        },
+                        {
+                            "name": "UNION POR LA PATRIA",
+                            "code": "134",
+                            "codTel": "134",
+                            "codLogo": "000134",
+                            "color": "#AABBAA",
+                            "votos": 16844.0,
+                            "perc": 22.5,
+                            "percCarg": 22.5,
+                            "listas": [
+                                {
+                                    "code": "3005",
+                                    "nombre": "A- CELESTE Y BLANCA",
+                                    "candidatos": [
+                                        "SERGIO TOMAS MASSA",
+                                        "AGUSTIN ROSSI"
+                                    ],
+                                    "votos": 13177.0,
+                                    "perc": 78.22,
+                                    "percAbs": 17.6
+                                },
+                                {
+                                    "code": "3006",
+                                    "nombre": "B- JUSTA Y SOBERANA",
+                                    "candidatos": [
+                                        "JUAN GRABOIS",
+                                        "PAULA ABAL MEDINA"
+                                    ],
+                                    "votos": 3667.0,
+                                    "perc": 21.77,
+                                    "percAbs": 4.89
+                                }
+                            ]
+                        },
+                        {
+                            "name": "JUNTOS POR EL CAMBIO",
+                            "code": "132",
+                            "codTel": "132",
+                            "codLogo": "000132",
+                            "color": "#AABBAA",
+                            "votos": 13954.0,
+                            "perc": 18.64,
+                            "percCarg": 18.64,
+                            "listas": [
+                                {
+                                    "code": "3008",
+                                    "nombre": "B- LA FUERZA DEL CAMBIO",
+                                    "candidatos": [
+                                        "PATRICIA BULLRICH",
+                                        "LUIS PETRI"
+                                    ],
+                                    "votos": 8800.0,
+                                    "perc": 63.06,
+                                    "percAbs": 11.75
+                                },
+                                {
+                                    "code": "3007",
+                                    "nombre": "A- EL CAMBIO DE NUESTRAS VIDAS",
+                                    "candidatos": [
+                                        "HORACIO ANTONIO RODRIGUEZ LARRETA",
+                                        "GERARDO MORALES"
+                                    ],
+                                    "votos": 5154.0,
+                                    "perc": 36.93,
+                                    "percAbs": 6.88
+                                }
+                            ]
+                        },
+                        {
+                            "name": "HACEMOS POR NUESTRO PAIS",
+                            "code": "133",
+                            "codTel": "133",
+                            "codLogo": "000133",
+                            "color": "#AABBAA",
+                            "votos": 1439.0,
+                            "perc": 1.92,
+                            "percCarg": 1.92,
+                            "listas": [
+                                {
+                                    "code": "3001",
+                                    "nombre": "A- HACEMOS",
+                                    "candidatos": [
+                                        "JUAN SCHIARETTI",
+                                        "FLORENCIO RANDAZZO"
+                                    ],
+                                    "votos": 1439.0,
+                                    "perc": 100.0,
+                                    "percAbs": 1.92
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD",
+                            "code": "136",
+                            "codTel": "136",
+                            "codLogo": "000136",
+                            "color": "#AABBAA",
+                            "votos": 1351.0,
+                            "perc": 1.8,
+                            "percCarg": 1.8,
+                            "listas": [
+                                {
+                                    "code": "3009",
+                                    "nombre": "A- UNIR Y FORTALECER LA IZQUIERDA",
+                                    "candidatos": [
+                                        "MYRIAM TERESA BREGMAN",
+                                        "NICOLAS DEL CAÑO"
+                                    ],
+                                    "votos": 772.0,
+                                    "perc": 57.14,
+                                    "percAbs": 1.03
+                                },
+                                {
+                                    "code": "3010",
+                                    "nombre": "B- UNIDAD DE LUCHADORES Y LA IZQUIERDA",
+                                    "candidatos": [
+                                        "GABRIEL ESTEBAN SOLANO",
+                                        "VILMA RIPOLL"
+                                    ],
+                                    "votos": 579.0,
+                                    "perc": 42.85,
+                                    "percAbs": 0.77
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO AL SOCIALISMO",
+                            "code": "13",
+                            "codTel": "13",
+                            "codLogo": "000013",
+                            "color": "#AABBAA",
+                            "votos": 212.0,
+                            "perc": 0.28,
+                            "percCarg": 0.28,
+                            "listas": [
+                                {
+                                    "code": "3017",
+                                    "nombre": "A- IZQUIERDA ANTICAPITALISTA",
+                                    "candidatos": [
+                                        "MANUELA JIMENA CASTAÑEIRA",
+                                        "LUCAS RUIZ"
+                                    ],
+                                    "votos": 212.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.28
+                                }
+                            ]
+                        },
+                        {
+                            "name": "POLITICA OBRERA",
+                            "code": "92",
+                            "codTel": "92",
+                            "codLogo": "000092",
+                            "color": "#AABBAA",
+                            "votos": 174.0,
+                            "perc": 0.23,
+                            "percCarg": 0.23,
+                            "listas": [
+                                {
+                                    "code": "3020",
+                                    "nombre": "A- UNIDAD OBRERA",
+                                    "candidatos": [
+                                        "MARCELO ARMANDO RAMAL",
+                                        "PATRICIA URONES"
+                                    ],
+                                    "votos": 174.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.23
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO LIBRES DEL SUR",
+                            "code": "40",
+                            "codTel": "40",
+                            "codLogo": "000040",
+                            "color": "#AABBAA",
+                            "votos": 167.0,
+                            "perc": 0.22,
+                            "percCarg": 0.22,
+                            "listas": [
+                                {
+                                    "code": "3019",
+                                    "nombre": "A- AZUL Y ROJO",
+                                    "candidatos": [
+                                        "JESUS ARNALDO ESCOBAR",
+                                        "MARIANELLA LEZAMA HID"
+                                    ],
+                                    "votos": 167.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.22
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD",
+                            "code": "90",
+                            "codTel": "90",
+                            "codLogo": "000090",
+                            "color": "#AABBAA",
+                            "votos": 144.0,
+                            "perc": 0.19,
+                            "percCarg": 0.19,
+                            "listas": [
+                                {
+                                    "code": "3027",
+                                    "nombre": "B- CONFEDERAL",
+                                    "candidatos": [
+                                        "GABRIEL SANTIAGO CÚNEO",
+                                        "GUSTAVO BARRANCO"
+                                    ],
+                                    "votos": 138.0,
+                                    "perc": 95.83,
+                                    "percAbs": 0.18
+                                },
+                                {
+                                    "code": "3026",
+                                    "nombre": "A- DIGNIDAD",
+                                    "candidatos": [
+                                        "RAUL ANIBAL CASTELLS",
+                                        "ADRIANA REINOSO"
+                                    ],
+                                    "votos": 6.0,
+                                    "perc": 4.16,
+                                    "percAbs": 0.01
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE PATRIOTA FEDERAL",
+                            "code": "95",
+                            "codTel": "95",
+                            "codLogo": "000095",
+                            "color": "#AABBAA",
+                            "votos": 87.0,
+                            "perc": 0.11,
+                            "percCarg": 0.11,
+                            "listas": [
+                                {
+                                    "code": "3021",
+                                    "nombre": "A- PRIMERO LA PATRIA",
+                                    "candidatos": [
+                                        "ALEJANDRO CESAR BIONDINI",
+                                        "MARIEL AVENDAÑO"
+                                    ],
+                                    "votos": 87.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.11
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO DE ACCION VECINAL",
+                            "code": "57",
+                            "codTel": "57",
+                            "codLogo": "000057",
+                            "color": "#AABBAA",
+                            "votos": 57.0,
+                            "perc": 0.07,
+                            "percCarg": 0.07,
+                            "listas": [
+                                {
+                                    "code": "3025",
+                                    "nombre": "A- COMPROMISO VECINAL",
+                                    "candidatos": [
+                                        "RAUL HUMBERTO ALBARRACIN",
+                                        "SERGIO PASTORE"
+                                    ],
+                                    "votos": 57.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.07
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PRINCIPIOS Y VALORES",
+                            "code": "137",
+                            "codTel": "137",
+                            "codLogo": "000137",
+                            "color": "#AABBAA",
+                            "votos": 19.0,
+                            "perc": 0.02,
+                            "percCarg": 0.02,
+                            "listas": [
+                                {
+                                    "code": "3011",
+                                    "nombre": "1A- TIERRA, TECHO  Y TRABAJO",
+                                    "candidatos": [
+                                        "MARIO GUILLERMO MORENO",
+                                        "LEONARDO RUBEN FABRE"
+                                    ],
+                                    "votos": 19.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.02
+                                },
+                                {
+                                    "code": "3012",
+                                    "nombre": "2B- TRANSFORMAR",
+                                    "candidatos": [
+                                        "ELIODORO MARTINEZ",
+                                        "VICENTE SOUTO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3013",
+                                    "nombre": "3C- TRES BANDERAS",
+                                    "candidatos": [
+                                        "JORGE EDUARDO OLIVER",
+                                        "EZEQUIEL BRITOS SAN MARTIN"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3014",
+                                    "nombre": "4D- GENTE DE TRABAJO",
+                                    "candidatos": [
+                                        "CARINA PAOLA BARTOLINI",
+                                        "MABEL GOMEZ"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3015",
+                                    "nombre": "5E- LABORISTA",
+                                    "candidatos": [
+                                        "PAULA LORENA ARIAS",
+                                        "WALTER VERA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PROYECTO JOVEN",
+                            "code": "94",
+                            "codTel": "94",
+                            "codLogo": "000094",
+                            "color": "#AABBAA",
+                            "votos": 3.0,
+                            "perc": 0.01,
+                            "percCarg": 0.01,
+                            "listas": [
+                                {
+                                    "code": "3023",
+                                    "nombre": "B- PATRIA UNIDA",
+                                    "candidatos": [
+                                        "MARTIN MIGUEL AYERBE ORTIZ",
+                                        "HUGO MAURICIO EZEQUIEL RODRIGUEZ"
+                                    ],
+                                    "votos": 3.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.01
+                                },
+                                {
+                                    "code": "3022",
+                                    "nombre": "A- COALICION PAZ DEMOCRACIA SOBERANIA",
+                                    "candidatos": [
+                                        "OSCAR ALFREDO RAMON GIARDINELLI",
+                                        "BARBARA MARA SOLERNOU GALLARDO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3024",
+                                    "nombre": "C- TODEX",
+                                    "candidatos": [
+                                        "REINA XIOMARA IBAÑEZ",
+                                        "GONZALO RODRIGO IBARRA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "UNION DEL CENTRO DEMOCRATICO",
+                            "code": "20",
+                            "codTel": "20",
+                            "codLogo": "000020",
+                            "color": "#AABBAA",
+                            "votos": 1.0,
+                            "perc": 0.01,
+                            "percCarg": 0.01,
+                            "listas": [
+                                {
+                                    "code": "3018",
+                                    "nombre": "A- APERTURA LIBERAL ARGENTINA",
+                                    "candidatos": [
+                                        "ANDRES GABRIEL PASSAMONTI",
+                                        "PAMELA FERNANDEZ"
+                                    ],
+                                    "votos": 1.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.01
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE LIBER.AR",
+                            "code": "131",
+                            "codTel": "131",
+                            "codLogo": "000131",
+                            "color": "#AABBAA",
+                            "votos": 0.0,
+                            "perc": 0.0,
+                            "percCarg": 0.0,
+                            "listas": [
+                                {
+                                    "code": "3002",
+                                    "nombre": "A- DEMOS",
+                                    "candidatos": [
+                                        "NAZARENO GABRIEL ETCHEPARE",
+                                        "FERNANDO LORENZO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3003",
+                                    "nombre": "B- RECONQUISTA",
+                                    "candidatos": [
+                                        "RAMIRO EDUARDO VASENA",
+                                        "VICTOR LAGONEGRO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3004",
+                                    "nombre": "C- ANTICORRUPCIÓN",
+                                    "candidatos": [
+                                        "JULIO DONATO BARBARO",
+                                        "RAMONA PUCHETA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        }
+                    ],
+                    "participation": 71.94,
+                    "percAbstencion": 28.05,
+                    "percAfirmativos": 73.76,
+                    "percBlancos": 24.93,
+                    "percComando": 0.01,
+                    "percImpugnados": 0.01,
+                    "percNulos": 1.23,
+                    "percRecImpCom": 0.06,
+                    "percRecurridos": 0.06,
+                    "percValid": 98.69,
+                    "pollingCensus": 105398.0,
+                    "pollingNumStation": 359.0,
+                    "pollingPercStation": 99.17,
+                    "recImpCom": 52.0,
+                    "recurridos": 48.0,
+                    "sobres": 60326.0,
+                    "totalVotos": 75828.0,
+                    "valid": 74841.0,
+                    "umbral": 0.0,
+                    "calcPerc": "V",
+                    "showCargos": 1.0,
+                    "isCircus": 1.0
+                },
+                {
+                    "scopeId": "000000000000000000030d80",
+                    "name": "Lago Argentino",
+                    "codigo": "20006",
+                    "envio": 127.0,
+                    "abstencion": 7720.0,
+                    "afirmativos": 11445.0,
+                    "blancos": 2671.0,
+                    "census": 22121.0,
+                    "comando": 30.0,
+                    "electores": 10429.0,
+                    "impugnados": 2.0,
+                    "nulos": 244.0,
+                    "numStation": 76.0,
+                    "partidos": [
+                        {
+                            "name": "UNION POR LA PATRIA",
+                            "code": "134",
+                            "codTel": "134",
+                            "codLogo": "000134",
+                            "color": "#AABBAA",
+                            "votos": 4572.0,
+                            "perc": 32.38,
+                            "percCarg": 32.38,
+                            "listas": [
+                                {
+                                    "code": "3005",
+                                    "nombre": "A- CELESTE Y BLANCA",
+                                    "candidatos": [
+                                        "SERGIO TOMAS MASSA",
+                                        "AGUSTIN ROSSI"
+                                    ],
+                                    "votos": 3416.0,
+                                    "perc": 74.71,
+                                    "percAbs": 24.19
+                                },
+                                {
+                                    "code": "3006",
+                                    "nombre": "B- JUSTA Y SOBERANA",
+                                    "candidatos": [
+                                        "JUAN GRABOIS",
+                                        "PAULA ABAL MEDINA"
+                                    ],
+                                    "votos": 1156.0,
+                                    "perc": 25.28,
+                                    "percAbs": 8.18
+                                }
+                            ]
+                        },
+                        {
+                            "name": "LA LIBERTAD AVANZA",
+                            "code": "135",
+                            "codTel": "135",
+                            "codLogo": "000135",
+                            "color": "#AABBAA",
+                            "votos": 4130.0,
+                            "perc": 29.25,
+                            "percCarg": 29.25,
+                            "listas": [
+                                {
+                                    "code": "3016",
+                                    "nombre": "A- LIBERTAD POR SIEMPRE",
+                                    "candidatos": [
+                                        "JAVIER GERARDO MILEI",
+                                        "VICTORIA VILLARRUEL"
+                                    ],
+                                    "votos": 4130.0,
+                                    "perc": 100.0,
+                                    "percAbs": 29.25
+                                }
+                            ]
+                        },
+                        {
+                            "name": "JUNTOS POR EL CAMBIO",
+                            "code": "132",
+                            "codTel": "132",
+                            "codLogo": "000132",
+                            "color": "#AABBAA",
+                            "votos": 1978.0,
+                            "perc": 14.01,
+                            "percCarg": 14.01,
+                            "listas": [
+                                {
+                                    "code": "3008",
+                                    "nombre": "B- LA FUERZA DEL CAMBIO",
+                                    "candidatos": [
+                                        "PATRICIA BULLRICH",
+                                        "LUIS PETRI"
+                                    ],
+                                    "votos": 1283.0,
+                                    "perc": 64.86,
+                                    "percAbs": 9.08
+                                },
+                                {
+                                    "code": "3007",
+                                    "nombre": "A- EL CAMBIO DE NUESTRAS VIDAS",
+                                    "candidatos": [
+                                        "HORACIO ANTONIO RODRIGUEZ LARRETA",
+                                        "GERARDO MORALES"
+                                    ],
+                                    "votos": 695.0,
+                                    "perc": 35.13,
+                                    "percAbs": 4.92
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD",
+                            "code": "136",
+                            "codTel": "136",
+                            "codLogo": "000136",
+                            "color": "#AABBAA",
+                            "votos": 361.0,
+                            "perc": 2.55,
+                            "percCarg": 2.55,
+                            "listas": [
+                                {
+                                    "code": "3009",
+                                    "nombre": "A- UNIR Y FORTALECER LA IZQUIERDA",
+                                    "candidatos": [
+                                        "MYRIAM TERESA BREGMAN",
+                                        "NICOLAS DEL CAÑO"
+                                    ],
+                                    "votos": 252.0,
+                                    "perc": 69.8,
+                                    "percAbs": 1.78
+                                },
+                                {
+                                    "code": "3010",
+                                    "nombre": "B- UNIDAD DE LUCHADORES Y LA IZQUIERDA",
+                                    "candidatos": [
+                                        "GABRIEL ESTEBAN SOLANO",
+                                        "VILMA RIPOLL"
+                                    ],
+                                    "votos": 109.0,
+                                    "perc": 30.19,
+                                    "percAbs": 0.77
+                                }
+                            ]
+                        },
+                        {
+                            "name": "HACEMOS POR NUESTRO PAIS",
+                            "code": "133",
+                            "codTel": "133",
+                            "codLogo": "000133",
+                            "color": "#AABBAA",
+                            "votos": 202.0,
+                            "perc": 1.43,
+                            "percCarg": 1.43,
+                            "listas": [
+                                {
+                                    "code": "3001",
+                                    "nombre": "A- HACEMOS",
+                                    "candidatos": [
+                                        "JUAN SCHIARETTI",
+                                        "FLORENCIO RANDAZZO"
+                                    ],
+                                    "votos": 202.0,
+                                    "perc": 100.0,
+                                    "percAbs": 1.43
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO AL SOCIALISMO",
+                            "code": "13",
+                            "codTel": "13",
+                            "codLogo": "000013",
+                            "color": "#AABBAA",
+                            "votos": 49.0,
+                            "perc": 0.34,
+                            "percCarg": 0.34,
+                            "listas": [
+                                {
+                                    "code": "3017",
+                                    "nombre": "A- IZQUIERDA ANTICAPITALISTA",
+                                    "candidatos": [
+                                        "MANUELA JIMENA CASTAÑEIRA",
+                                        "LUCAS RUIZ"
+                                    ],
+                                    "votos": 49.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.34
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO LIBRES DEL SUR",
+                            "code": "40",
+                            "codTel": "40",
+                            "codLogo": "000040",
+                            "color": "#AABBAA",
+                            "votos": 37.0,
+                            "perc": 0.26,
+                            "percCarg": 0.26,
+                            "listas": [
+                                {
+                                    "code": "3019",
+                                    "nombre": "A- AZUL Y ROJO",
+                                    "candidatos": [
+                                        "JESUS ARNALDO ESCOBAR",
+                                        "MARIANELLA LEZAMA HID"
+                                    ],
+                                    "votos": 37.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.26
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD",
+                            "code": "90",
+                            "codTel": "90",
+                            "codLogo": "000090",
+                            "color": "#AABBAA",
+                            "votos": 36.0,
+                            "perc": 0.25,
+                            "percCarg": 0.25,
+                            "listas": [
+                                {
+                                    "code": "3027",
+                                    "nombre": "B- CONFEDERAL",
+                                    "candidatos": [
+                                        "GABRIEL SANTIAGO CÚNEO",
+                                        "GUSTAVO BARRANCO"
+                                    ],
+                                    "votos": 32.0,
+                                    "perc": 88.88,
+                                    "percAbs": 0.22
+                                },
+                                {
+                                    "code": "3026",
+                                    "nombre": "A- DIGNIDAD",
+                                    "candidatos": [
+                                        "RAUL ANIBAL CASTELLS",
+                                        "ADRIANA REINOSO"
+                                    ],
+                                    "votos": 4.0,
+                                    "perc": 11.11,
+                                    "percAbs": 0.02
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE PATRIOTA FEDERAL",
+                            "code": "95",
+                            "codTel": "95",
+                            "codLogo": "000095",
+                            "color": "#AABBAA",
+                            "votos": 32.0,
+                            "perc": 0.22,
+                            "percCarg": 0.22,
+                            "listas": [
+                                {
+                                    "code": "3021",
+                                    "nombre": "A- PRIMERO LA PATRIA",
+                                    "candidatos": [
+                                        "ALEJANDRO CESAR BIONDINI",
+                                        "MARIEL AVENDAÑO"
+                                    ],
+                                    "votos": 32.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.22
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO DE ACCION VECINAL",
+                            "code": "57",
+                            "codTel": "57",
+                            "codLogo": "000057",
+                            "color": "#AABBAA",
+                            "votos": 21.0,
+                            "perc": 0.14,
+                            "percCarg": 0.14,
+                            "listas": [
+                                {
+                                    "code": "3025",
+                                    "nombre": "A- COMPROMISO VECINAL",
+                                    "candidatos": [
+                                        "RAUL HUMBERTO ALBARRACIN",
+                                        "SERGIO PASTORE"
+                                    ],
+                                    "votos": 21.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.14
+                                }
+                            ]
+                        },
+                        {
+                            "name": "POLITICA OBRERA",
+                            "code": "92",
+                            "codTel": "92",
+                            "codLogo": "000092",
+                            "color": "#AABBAA",
+                            "votos": 20.0,
+                            "perc": 0.14,
+                            "percCarg": 0.14,
+                            "listas": [
+                                {
+                                    "code": "3020",
+                                    "nombre": "A- UNIDAD OBRERA",
+                                    "candidatos": [
+                                        "MARCELO ARMANDO RAMAL",
+                                        "PATRICIA URONES"
+                                    ],
+                                    "votos": 20.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.14
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PRINCIPIOS Y VALORES",
+                            "code": "137",
+                            "codTel": "137",
+                            "codLogo": "000137",
+                            "color": "#AABBAA",
+                            "votos": 6.0,
+                            "perc": 0.04,
+                            "percCarg": 0.04,
+                            "listas": [
+                                {
+                                    "code": "3011",
+                                    "nombre": "1A- TIERRA, TECHO  Y TRABAJO",
+                                    "candidatos": [
+                                        "MARIO GUILLERMO MORENO",
+                                        "LEONARDO RUBEN FABRE"
+                                    ],
+                                    "votos": 6.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.04
+                                },
+                                {
+                                    "code": "3012",
+                                    "nombre": "2B- TRANSFORMAR",
+                                    "candidatos": [
+                                        "ELIODORO MARTINEZ",
+                                        "VICENTE SOUTO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3013",
+                                    "nombre": "3C- TRES BANDERAS",
+                                    "candidatos": [
+                                        "JORGE EDUARDO OLIVER",
+                                        "EZEQUIEL BRITOS SAN MARTIN"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3014",
+                                    "nombre": "4D- GENTE DE TRABAJO",
+                                    "candidatos": [
+                                        "CARINA PAOLA BARTOLINI",
+                                        "MABEL GOMEZ"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3015",
+                                    "nombre": "5E- LABORISTA",
+                                    "candidatos": [
+                                        "PAULA LORENA ARIAS",
+                                        "WALTER VERA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "UNION DEL CENTRO DEMOCRATICO",
+                            "code": "20",
+                            "codTel": "20",
+                            "codLogo": "000020",
+                            "color": "#AABBAA",
+                            "votos": 1.0,
+                            "perc": 0.01,
+                            "percCarg": 0.01,
+                            "listas": [
+                                {
+                                    "code": "3018",
+                                    "nombre": "A- APERTURA LIBERAL ARGENTINA",
+                                    "candidatos": [
+                                        "ANDRES GABRIEL PASSAMONTI",
+                                        "PAMELA FERNANDEZ"
+                                    ],
+                                    "votos": 1.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.01
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE LIBER.AR",
+                            "code": "131",
+                            "codTel": "131",
+                            "codLogo": "000131",
+                            "color": "#AABBAA",
+                            "votos": 0.0,
+                            "perc": 0.0,
+                            "percCarg": 0.0,
+                            "listas": [
+                                {
+                                    "code": "3002",
+                                    "nombre": "A- DEMOS",
+                                    "candidatos": [
+                                        "NAZARENO GABRIEL ETCHEPARE",
+                                        "FERNANDO LORENZO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3003",
+                                    "nombre": "B- RECONQUISTA",
+                                    "candidatos": [
+                                        "RAMIRO EDUARDO VASENA",
+                                        "VICTOR LAGONEGRO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3004",
+                                    "nombre": "C- ANTICORRUPCIÓN",
+                                    "candidatos": [
+                                        "JULIO DONATO BARBARO",
+                                        "RAMONA PUCHETA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PROYECTO JOVEN",
+                            "code": "94",
+                            "codTel": "94",
+                            "codLogo": "000094",
+                            "color": "#AABBAA",
+                            "votos": 0.0,
+                            "perc": 0.0,
+                            "percCarg": 0.0,
+                            "listas": [
+                                {
+                                    "code": "3022",
+                                    "nombre": "A- COALICION PAZ DEMOCRACIA SOBERANIA",
+                                    "candidatos": [
+                                        "OSCAR ALFREDO RAMON GIARDINELLI",
+                                        "BARBARA MARA SOLERNOU GALLARDO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3023",
+                                    "nombre": "B- PATRIA UNIDA",
+                                    "candidatos": [
+                                        "MARTIN MIGUEL AYERBE ORTIZ",
+                                        "HUGO MAURICIO EZEQUIEL RODRIGUEZ"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3024",
+                                    "nombre": "C- TODEX",
+                                    "candidatos": [
+                                        "REINA XIOMARA IBAÑEZ",
+                                        "GONZALO RODRIGO IBARRA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        }
+                    ],
+                    "participation": 65.1,
+                    "percAbstencion": 34.89,
+                    "percAfirmativos": 79.47,
+                    "percBlancos": 18.54,
+                    "percComando": 0.2,
+                    "percImpugnados": 0.01,
+                    "percNulos": 1.69,
+                    "percRecImpCom": 0.28,
+                    "percRecurridos": 0.06,
+                    "percValid": 98.02,
+                    "pollingCensus": 22121.0,
+                    "pollingNumStation": 76.0,
+                    "pollingPercStation": 100.0,
+                    "recImpCom": 41.0,
+                    "recurridos": 9.0,
+                    "sobres": 10429.0,
+                    "totalVotos": 14401.0,
+                    "valid": 14116.0,
+                    "umbral": 0.0,
+                    "calcPerc": "V",
+                    "showCargos": 1.0,
+                    "isCircus": 1.0
+                },
+                {
+                    "scopeId": "000000000000000000030d58",
+                    "name": "Lago Buenos Aires",
+                    "codigo": "20002",
+                    "envio": 127.0,
+                    "abstencion": 3505.0,
+                    "afirmativos": 4816.0,
+                    "blancos": 2048.0,
+                    "census": 10962.0,
+                    "comando": 11.0,
+                    "electores": 4844.0,
+                    "impugnados": 0.0,
+                    "nulos": 94.0,
+                    "numStation": 39.0,
+                    "partidos": [
+                        {
+                            "name": "LA LIBERTAD AVANZA",
+                            "code": "135",
+                            "codTel": "135",
+                            "codLogo": "000135",
+                            "color": "#AABBAA",
+                            "votos": 2016.0,
+                            "perc": 29.37,
+                            "percCarg": 29.37,
+                            "listas": [
+                                {
+                                    "code": "3016",
+                                    "nombre": "A- LIBERTAD POR SIEMPRE",
+                                    "candidatos": [
+                                        "JAVIER GERARDO MILEI",
+                                        "VICTORIA VILLARRUEL"
+                                    ],
+                                    "votos": 2016.0,
+                                    "perc": 100.0,
+                                    "percAbs": 29.37
+                                }
+                            ]
+                        },
+                        {
+                            "name": "UNION POR LA PATRIA",
+                            "code": "134",
+                            "codTel": "134",
+                            "codLogo": "000134",
+                            "color": "#AABBAA",
+                            "votos": 1728.0,
+                            "perc": 25.17,
+                            "percCarg": 25.17,
+                            "listas": [
+                                {
+                                    "code": "3005",
+                                    "nombre": "A- CELESTE Y BLANCA",
+                                    "candidatos": [
+                                        "SERGIO TOMAS MASSA",
+                                        "AGUSTIN ROSSI"
+                                    ],
+                                    "votos": 1107.0,
+                                    "perc": 64.06,
+                                    "percAbs": 16.12
+                                },
+                                {
+                                    "code": "3006",
+                                    "nombre": "B- JUSTA Y SOBERANA",
+                                    "candidatos": [
+                                        "JUAN GRABOIS",
+                                        "PAULA ABAL MEDINA"
+                                    ],
+                                    "votos": 621.0,
+                                    "perc": 35.93,
+                                    "percAbs": 9.04
+                                }
+                            ]
+                        },
+                        {
+                            "name": "JUNTOS POR EL CAMBIO",
+                            "code": "132",
+                            "codTel": "132",
+                            "codLogo": "000132",
+                            "color": "#AABBAA",
+                            "votos": 862.0,
+                            "perc": 12.55,
+                            "percCarg": 12.55,
+                            "listas": [
+                                {
+                                    "code": "3008",
+                                    "nombre": "B- LA FUERZA DEL CAMBIO",
+                                    "candidatos": [
+                                        "PATRICIA BULLRICH",
+                                        "LUIS PETRI"
+                                    ],
+                                    "votos": 565.0,
+                                    "perc": 65.54,
+                                    "percAbs": 8.23
+                                },
+                                {
+                                    "code": "3007",
+                                    "nombre": "A- EL CAMBIO DE NUESTRAS VIDAS",
+                                    "candidatos": [
+                                        "HORACIO ANTONIO RODRIGUEZ LARRETA",
+                                        "GERARDO MORALES"
+                                    ],
+                                    "votos": 297.0,
+                                    "perc": 34.45,
+                                    "percAbs": 4.32
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD",
+                            "code": "136",
+                            "codTel": "136",
+                            "codLogo": "000136",
+                            "color": "#AABBAA",
+                            "votos": 93.0,
+                            "perc": 1.35,
+                            "percCarg": 1.35,
+                            "listas": [
+                                {
+                                    "code": "3009",
+                                    "nombre": "A- UNIR Y FORTALECER LA IZQUIERDA",
+                                    "candidatos": [
+                                        "MYRIAM TERESA BREGMAN",
+                                        "NICOLAS DEL CAÑO"
+                                    ],
+                                    "votos": 63.0,
+                                    "perc": 67.74,
+                                    "percAbs": 0.91
+                                },
+                                {
+                                    "code": "3010",
+                                    "nombre": "B- UNIDAD DE LUCHADORES Y LA IZQUIERDA",
+                                    "candidatos": [
+                                        "GABRIEL ESTEBAN SOLANO",
+                                        "VILMA RIPOLL"
+                                    ],
+                                    "votos": 30.0,
+                                    "perc": 32.25,
+                                    "percAbs": 0.43
+                                }
+                            ]
+                        },
+                        {
+                            "name": "HACEMOS POR NUESTRO PAIS",
+                            "code": "133",
+                            "codTel": "133",
+                            "codLogo": "000133",
+                            "color": "#AABBAA",
+                            "votos": 73.0,
+                            "perc": 1.06,
+                            "percCarg": 1.06,
+                            "listas": [
+                                {
+                                    "code": "3001",
+                                    "nombre": "A- HACEMOS",
+                                    "candidatos": [
+                                        "JUAN SCHIARETTI",
+                                        "FLORENCIO RANDAZZO"
+                                    ],
+                                    "votos": 73.0,
+                                    "perc": 100.0,
+                                    "percAbs": 1.06
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO AL SOCIALISMO",
+                            "code": "13",
+                            "codTel": "13",
+                            "codLogo": "000013",
+                            "color": "#AABBAA",
+                            "votos": 14.0,
+                            "perc": 0.2,
+                            "percCarg": 0.2,
+                            "listas": [
+                                {
+                                    "code": "3017",
+                                    "nombre": "A- IZQUIERDA ANTICAPITALISTA",
+                                    "candidatos": [
+                                        "MANUELA JIMENA CASTAÑEIRA",
+                                        "LUCAS RUIZ"
+                                    ],
+                                    "votos": 14.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD",
+                            "code": "90",
+                            "codTel": "90",
+                            "codLogo": "000090",
+                            "color": "#AABBAA",
+                            "votos": 10.0,
+                            "perc": 0.14,
+                            "percCarg": 0.14,
+                            "listas": [
+                                {
+                                    "code": "3027",
+                                    "nombre": "B- CONFEDERAL",
+                                    "candidatos": [
+                                        "GABRIEL SANTIAGO CÚNEO",
+                                        "GUSTAVO BARRANCO"
+                                    ],
+                                    "votos": 9.0,
+                                    "perc": 90.0,
+                                    "percAbs": 0.13
+                                },
+                                {
+                                    "code": "3026",
+                                    "nombre": "A- DIGNIDAD",
+                                    "candidatos": [
+                                        "RAUL ANIBAL CASTELLS",
+                                        "ADRIANA REINOSO"
+                                    ],
+                                    "votos": 1.0,
+                                    "perc": 10.0,
+                                    "percAbs": 0.01
+                                }
+                            ]
+                        },
+                        {
+                            "name": "POLITICA OBRERA",
+                            "code": "92",
+                            "codTel": "92",
+                            "codLogo": "000092",
+                            "color": "#AABBAA",
+                            "votos": 9.0,
+                            "perc": 0.13,
+                            "percCarg": 0.13,
+                            "listas": [
+                                {
+                                    "code": "3020",
+                                    "nombre": "A- UNIDAD OBRERA",
+                                    "candidatos": [
+                                        "MARCELO ARMANDO RAMAL",
+                                        "PATRICIA URONES"
+                                    ],
+                                    "votos": 9.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.13
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE PATRIOTA FEDERAL",
+                            "code": "95",
+                            "codTel": "95",
+                            "codLogo": "000095",
+                            "color": "#AABBAA",
+                            "votos": 4.0,
+                            "perc": 0.05,
+                            "percCarg": 0.05,
+                            "listas": [
+                                {
+                                    "code": "3021",
+                                    "nombre": "A- PRIMERO LA PATRIA",
+                                    "candidatos": [
+                                        "ALEJANDRO CESAR BIONDINI",
+                                        "MARIEL AVENDAÑO"
+                                    ],
+                                    "votos": 4.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.05
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO LIBRES DEL SUR",
+                            "code": "40",
+                            "codTel": "40",
+                            "codLogo": "000040",
+                            "color": "#AABBAA",
+                            "votos": 4.0,
+                            "perc": 0.05,
+                            "percCarg": 0.05,
+                            "listas": [
+                                {
+                                    "code": "3019",
+                                    "nombre": "A- AZUL Y ROJO",
+                                    "candidatos": [
+                                        "JESUS ARNALDO ESCOBAR",
+                                        "MARIANELLA LEZAMA HID"
+                                    ],
+                                    "votos": 4.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.05
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PRINCIPIOS Y VALORES",
+                            "code": "137",
+                            "codTel": "137",
+                            "codLogo": "000137",
+                            "color": "#AABBAA",
+                            "votos": 2.0,
+                            "perc": 0.02,
+                            "percCarg": 0.02,
+                            "listas": [
+                                {
+                                    "code": "3011",
+                                    "nombre": "1A- TIERRA, TECHO  Y TRABAJO",
+                                    "candidatos": [
+                                        "MARIO GUILLERMO MORENO",
+                                        "LEONARDO RUBEN FABRE"
+                                    ],
+                                    "votos": 2.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.02
+                                },
+                                {
+                                    "code": "3012",
+                                    "nombre": "2B- TRANSFORMAR",
+                                    "candidatos": [
+                                        "ELIODORO MARTINEZ",
+                                        "VICENTE SOUTO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3013",
+                                    "nombre": "3C- TRES BANDERAS",
+                                    "candidatos": [
+                                        "JORGE EDUARDO OLIVER",
+                                        "EZEQUIEL BRITOS SAN MARTIN"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3014",
+                                    "nombre": "4D- GENTE DE TRABAJO",
+                                    "candidatos": [
+                                        "CARINA PAOLA BARTOLINI",
+                                        "MABEL GOMEZ"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3015",
+                                    "nombre": "5E- LABORISTA",
+                                    "candidatos": [
+                                        "PAULA LORENA ARIAS",
+                                        "WALTER VERA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO DE ACCION VECINAL",
+                            "code": "57",
+                            "codTel": "57",
+                            "codLogo": "000057",
+                            "color": "#AABBAA",
+                            "votos": 1.0,
+                            "perc": 0.01,
+                            "percCarg": 0.01,
+                            "listas": [
+                                {
+                                    "code": "3025",
+                                    "nombre": "A- COMPROMISO VECINAL",
+                                    "candidatos": [
+                                        "RAUL HUMBERTO ALBARRACIN",
+                                        "SERGIO PASTORE"
+                                    ],
+                                    "votos": 1.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.01
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE LIBER.AR",
+                            "code": "131",
+                            "codTel": "131",
+                            "codLogo": "000131",
+                            "color": "#AABBAA",
+                            "votos": 0.0,
+                            "perc": 0.0,
+                            "percCarg": 0.0,
+                            "listas": [
+                                {
+                                    "code": "3002",
+                                    "nombre": "A- DEMOS",
+                                    "candidatos": [
+                                        "NAZARENO GABRIEL ETCHEPARE",
+                                        "FERNANDO LORENZO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3003",
+                                    "nombre": "B- RECONQUISTA",
+                                    "candidatos": [
+                                        "RAMIRO EDUARDO VASENA",
+                                        "VICTOR LAGONEGRO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3004",
+                                    "nombre": "C- ANTICORRUPCIÓN",
+                                    "candidatos": [
+                                        "JULIO DONATO BARBARO",
+                                        "RAMONA PUCHETA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PROYECTO JOVEN",
+                            "code": "94",
+                            "codTel": "94",
+                            "codLogo": "000094",
+                            "color": "#AABBAA",
+                            "votos": 0.0,
+                            "perc": 0.0,
+                            "percCarg": 0.0,
+                            "listas": [
+                                {
+                                    "code": "3022",
+                                    "nombre": "A- COALICION PAZ DEMOCRACIA SOBERANIA",
+                                    "candidatos": [
+                                        "OSCAR ALFREDO RAMON GIARDINELLI",
+                                        "BARBARA MARA SOLERNOU GALLARDO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3023",
+                                    "nombre": "B- PATRIA UNIDA",
+                                    "candidatos": [
+                                        "MARTIN MIGUEL AYERBE ORTIZ",
+                                        "HUGO MAURICIO EZEQUIEL RODRIGUEZ"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3024",
+                                    "nombre": "C- TODEX",
+                                    "candidatos": [
+                                        "REINA XIOMARA IBAÑEZ",
+                                        "GONZALO RODRIGO IBARRA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "UNION DEL CENTRO DEMOCRATICO",
+                            "code": "20",
+                            "codTel": "20",
+                            "codLogo": "000020",
+                            "color": "#AABBAA",
+                            "votos": 0.0,
+                            "perc": 0.0,
+                            "percCarg": 0.0,
+                            "listas": [
+                                {
+                                    "code": "3018",
+                                    "nombre": "A- APERTURA LIBERAL ARGENTINA",
+                                    "candidatos": [
+                                        "ANDRES GABRIEL PASSAMONTI",
+                                        "PAMELA FERNANDEZ"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        }
+                    ],
+                    "participation": 66.54,
+                    "percAbstencion": 33.45,
+                    "percAfirmativos": 69.07,
+                    "percBlancos": 29.37,
+                    "percComando": 0.15,
+                    "percImpugnados": 0.0,
+                    "percNulos": 1.34,
+                    "percRecImpCom": 0.2,
+                    "percRecurridos": 0.04,
+                    "percValid": 98.45,
+                    "pollingCensus": 10477.0,
+                    "pollingNumStation": 36.0,
+                    "pollingPercStation": 92.3,
+                    "recImpCom": 14.0,
+                    "recurridos": 3.0,
+                    "sobres": 4843.0,
+                    "totalVotos": 6972.0,
+                    "valid": 6864.0,
+                    "umbral": 0.0,
+                    "calcPerc": "V",
+                    "showCargos": 1.0,
+                    "isCircus": 1.0
+                },
+                {
+                    "scopeId": "000000000000000000030d62",
+                    "name": "Magallanes",
+                    "codigo": "20003",
+                    "envio": 127.0,
+                    "abstencion": 3310.0,
+                    "afirmativos": 4673.0,
+                    "blancos": 2332.0,
+                    "census": 10403.0,
+                    "comando": 7.0,
+                    "electores": 7149.0,
+                    "impugnados": 0.0,
+                    "nulos": 81.0,
+                    "numStation": 36.0,
+                    "partidos": [
+                        {
+                            "name": "LA LIBERTAD AVANZA",
+                            "code": "135",
+                            "codTel": "135",
+                            "codLogo": "000135",
+                            "color": "#AABBAA",
+                            "votos": 2258.0,
+                            "perc": 32.23,
+                            "percCarg": 32.23,
+                            "listas": [
+                                {
+                                    "code": "3016",
+                                    "nombre": "A- LIBERTAD POR SIEMPRE",
+                                    "candidatos": [
+                                        "JAVIER GERARDO MILEI",
+                                        "VICTORIA VILLARRUEL"
+                                    ],
+                                    "votos": 2258.0,
+                                    "perc": 100.0,
+                                    "percAbs": 32.23
+                                }
+                            ]
+                        },
+                        {
+                            "name": "JUNTOS POR EL CAMBIO",
+                            "code": "132",
+                            "codTel": "132",
+                            "codLogo": "000132",
+                            "color": "#AABBAA",
+                            "votos": 1158.0,
+                            "perc": 16.53,
+                            "percCarg": 16.53,
+                            "listas": [
+                                {
+                                    "code": "3008",
+                                    "nombre": "B- LA FUERZA DEL CAMBIO",
+                                    "candidatos": [
+                                        "PATRICIA BULLRICH",
+                                        "LUIS PETRI"
+                                    ],
+                                    "votos": 752.0,
+                                    "perc": 64.93,
+                                    "percAbs": 10.73
+                                },
+                                {
+                                    "code": "3007",
+                                    "nombre": "A- EL CAMBIO DE NUESTRAS VIDAS",
+                                    "candidatos": [
+                                        "HORACIO ANTONIO RODRIGUEZ LARRETA",
+                                        "GERARDO MORALES"
+                                    ],
+                                    "votos": 406.0,
+                                    "perc": 35.06,
+                                    "percAbs": 5.79
+                                }
+                            ]
+                        },
+                        {
+                            "name": "UNION POR LA PATRIA",
+                            "code": "134",
+                            "codTel": "134",
+                            "codLogo": "000134",
+                            "color": "#AABBAA",
+                            "votos": 944.0,
+                            "perc": 13.47,
+                            "percCarg": 13.47,
+                            "listas": [
+                                {
+                                    "code": "3005",
+                                    "nombre": "A- CELESTE Y BLANCA",
+                                    "candidatos": [
+                                        "SERGIO TOMAS MASSA",
+                                        "AGUSTIN ROSSI"
+                                    ],
+                                    "votos": 704.0,
+                                    "perc": 74.57,
+                                    "percAbs": 10.04
+                                },
+                                {
+                                    "code": "3006",
+                                    "nombre": "B- JUSTA Y SOBERANA",
+                                    "candidatos": [
+                                        "JUAN GRABOIS",
+                                        "PAULA ABAL MEDINA"
+                                    ],
+                                    "votos": 240.0,
+                                    "perc": 25.42,
+                                    "percAbs": 3.42
+                                }
+                            ]
+                        },
+                        {
+                            "name": "HACEMOS POR NUESTRO PAIS",
+                            "code": "133",
+                            "codTel": "133",
+                            "codLogo": "000133",
+                            "color": "#AABBAA",
+                            "votos": 136.0,
+                            "perc": 1.94,
+                            "percCarg": 1.94,
+                            "listas": [
+                                {
+                                    "code": "3001",
+                                    "nombre": "A- HACEMOS",
+                                    "candidatos": [
+                                        "JUAN SCHIARETTI",
+                                        "FLORENCIO RANDAZZO"
+                                    ],
+                                    "votos": 136.0,
+                                    "perc": 100.0,
+                                    "percAbs": 1.94
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD",
+                            "code": "136",
+                            "codTel": "136",
+                            "codLogo": "000136",
+                            "color": "#AABBAA",
+                            "votos": 117.0,
+                            "perc": 1.67,
+                            "percCarg": 1.67,
+                            "listas": [
+                                {
+                                    "code": "3009",
+                                    "nombre": "A- UNIR Y FORTALECER LA IZQUIERDA",
+                                    "candidatos": [
+                                        "MYRIAM TERESA BREGMAN",
+                                        "NICOLAS DEL CAÑO"
+                                    ],
+                                    "votos": 61.0,
+                                    "perc": 52.13,
+                                    "percAbs": 0.87
+                                },
+                                {
+                                    "code": "3010",
+                                    "nombre": "B- UNIDAD DE LUCHADORES Y LA IZQUIERDA",
+                                    "candidatos": [
+                                        "GABRIEL ESTEBAN SOLANO",
+                                        "VILMA RIPOLL"
+                                    ],
+                                    "votos": 56.0,
+                                    "perc": 47.86,
+                                    "percAbs": 0.79
+                                }
+                            ]
+                        },
+                        {
+                            "name": "POLITICA OBRERA",
+                            "code": "92",
+                            "codTel": "92",
+                            "codLogo": "000092",
+                            "color": "#AABBAA",
+                            "votos": 20.0,
+                            "perc": 0.28,
+                            "percCarg": 0.28,
+                            "listas": [
+                                {
+                                    "code": "3020",
+                                    "nombre": "A- UNIDAD OBRERA",
+                                    "candidatos": [
+                                        "MARCELO ARMANDO RAMAL",
+                                        "PATRICIA URONES"
+                                    ],
+                                    "votos": 20.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.28
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO AL SOCIALISMO",
+                            "code": "13",
+                            "codTel": "13",
+                            "codLogo": "000013",
+                            "color": "#AABBAA",
+                            "votos": 10.0,
+                            "perc": 0.14,
+                            "percCarg": 0.14,
+                            "listas": [
+                                {
+                                    "code": "3017",
+                                    "nombre": "A- IZQUIERDA ANTICAPITALISTA",
+                                    "candidatos": [
+                                        "MANUELA JIMENA CASTAÑEIRA",
+                                        "LUCAS RUIZ"
+                                    ],
+                                    "votos": 10.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.14
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD",
+                            "code": "90",
+                            "codTel": "90",
+                            "codLogo": "000090",
+                            "color": "#AABBAA",
+                            "votos": 9.0,
+                            "perc": 0.12,
+                            "percCarg": 0.12,
+                            "listas": [
+                                {
+                                    "code": "3027",
+                                    "nombre": "B- CONFEDERAL",
+                                    "candidatos": [
+                                        "GABRIEL SANTIAGO CÚNEO",
+                                        "GUSTAVO BARRANCO"
+                                    ],
+                                    "votos": 9.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.12
+                                },
+                                {
+                                    "code": "3026",
+                                    "nombre": "A- DIGNIDAD",
+                                    "candidatos": [
+                                        "RAUL ANIBAL CASTELLS",
+                                        "ADRIANA REINOSO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO LIBRES DEL SUR",
+                            "code": "40",
+                            "codTel": "40",
+                            "codLogo": "000040",
+                            "color": "#AABBAA",
+                            "votos": 9.0,
+                            "perc": 0.12,
+                            "percCarg": 0.12,
+                            "listas": [
+                                {
+                                    "code": "3019",
+                                    "nombre": "A- AZUL Y ROJO",
+                                    "candidatos": [
+                                        "JESUS ARNALDO ESCOBAR",
+                                        "MARIANELLA LEZAMA HID"
+                                    ],
+                                    "votos": 9.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.12
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE PATRIOTA FEDERAL",
+                            "code": "95",
+                            "codTel": "95",
+                            "codLogo": "000095",
+                            "color": "#AABBAA",
+                            "votos": 8.0,
+                            "perc": 0.11,
+                            "percCarg": 0.11,
+                            "listas": [
+                                {
+                                    "code": "3021",
+                                    "nombre": "A- PRIMERO LA PATRIA",
+                                    "candidatos": [
+                                        "ALEJANDRO CESAR BIONDINI",
+                                        "MARIEL AVENDAÑO"
+                                    ],
+                                    "votos": 8.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.11
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO DE ACCION VECINAL",
+                            "code": "57",
+                            "codTel": "57",
+                            "codLogo": "000057",
+                            "color": "#AABBAA",
+                            "votos": 3.0,
+                            "perc": 0.04,
+                            "percCarg": 0.04,
+                            "listas": [
+                                {
+                                    "code": "3025",
+                                    "nombre": "A- COMPROMISO VECINAL",
+                                    "candidatos": [
+                                        "RAUL HUMBERTO ALBARRACIN",
+                                        "SERGIO PASTORE"
+                                    ],
+                                    "votos": 3.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.04
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PRINCIPIOS Y VALORES",
+                            "code": "137",
+                            "codTel": "137",
+                            "codLogo": "000137",
+                            "color": "#AABBAA",
+                            "votos": 1.0,
+                            "perc": 0.01,
+                            "percCarg": 0.01,
+                            "listas": [
+                                {
+                                    "code": "3011",
+                                    "nombre": "1A- TIERRA, TECHO  Y TRABAJO",
+                                    "candidatos": [
+                                        "MARIO GUILLERMO MORENO",
+                                        "LEONARDO RUBEN FABRE"
+                                    ],
+                                    "votos": 1.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.01
+                                },
+                                {
+                                    "code": "3012",
+                                    "nombre": "2B- TRANSFORMAR",
+                                    "candidatos": [
+                                        "ELIODORO MARTINEZ",
+                                        "VICENTE SOUTO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3013",
+                                    "nombre": "3C- TRES BANDERAS",
+                                    "candidatos": [
+                                        "JORGE EDUARDO OLIVER",
+                                        "EZEQUIEL BRITOS SAN MARTIN"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3014",
+                                    "nombre": "4D- GENTE DE TRABAJO",
+                                    "candidatos": [
+                                        "CARINA PAOLA BARTOLINI",
+                                        "MABEL GOMEZ"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3015",
+                                    "nombre": "5E- LABORISTA",
+                                    "candidatos": [
+                                        "PAULA LORENA ARIAS",
+                                        "WALTER VERA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE LIBER.AR",
+                            "code": "131",
+                            "codTel": "131",
+                            "codLogo": "000131",
+                            "color": "#AABBAA",
+                            "votos": 0.0,
+                            "perc": 0.0,
+                            "percCarg": 0.0,
+                            "listas": [
+                                {
+                                    "code": "3002",
+                                    "nombre": "A- DEMOS",
+                                    "candidatos": [
+                                        "NAZARENO GABRIEL ETCHEPARE",
+                                        "FERNANDO LORENZO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3003",
+                                    "nombre": "B- RECONQUISTA",
+                                    "candidatos": [
+                                        "RAMIRO EDUARDO VASENA",
+                                        "VICTOR LAGONEGRO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3004",
+                                    "nombre": "C- ANTICORRUPCIÓN",
+                                    "candidatos": [
+                                        "JULIO DONATO BARBARO",
+                                        "RAMONA PUCHETA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PROYECTO JOVEN",
+                            "code": "94",
+                            "codTel": "94",
+                            "codLogo": "000094",
+                            "color": "#AABBAA",
+                            "votos": 0.0,
+                            "perc": 0.0,
+                            "percCarg": 0.0,
+                            "listas": [
+                                {
+                                    "code": "3022",
+                                    "nombre": "A- COALICION PAZ DEMOCRACIA SOBERANIA",
+                                    "candidatos": [
+                                        "OSCAR ALFREDO RAMON GIARDINELLI",
+                                        "BARBARA MARA SOLERNOU GALLARDO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3023",
+                                    "nombre": "B- PATRIA UNIDA",
+                                    "candidatos": [
+                                        "MARTIN MIGUEL AYERBE ORTIZ",
+                                        "HUGO MAURICIO EZEQUIEL RODRIGUEZ"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3024",
+                                    "nombre": "C- TODEX",
+                                    "candidatos": [
+                                        "REINA XIOMARA IBAÑEZ",
+                                        "GONZALO RODRIGO IBARRA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "UNION DEL CENTRO DEMOCRATICO",
+                            "code": "20",
+                            "codTel": "20",
+                            "codLogo": "000020",
+                            "color": "#AABBAA",
+                            "votos": 0.0,
+                            "perc": 0.0,
+                            "percCarg": 0.0,
+                            "listas": [
+                                {
+                                    "code": "3018",
+                                    "nombre": "A- APERTURA LIBERAL ARGENTINA",
+                                    "candidatos": [
+                                        "ANDRES GABRIEL PASSAMONTI",
+                                        "PAMELA FERNANDEZ"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        }
+                    ],
+                    "participation": 68.18,
+                    "percAbstencion": 31.81,
+                    "percAfirmativos": 65.88,
+                    "percBlancos": 32.87,
+                    "percComando": 0.09,
+                    "percImpugnados": 0.0,
+                    "percNulos": 1.14,
+                    "percRecImpCom": 0.09,
+                    "percRecurridos": 0.0,
+                    "percValid": 98.75,
+                    "pollingCensus": 10403.0,
+                    "pollingNumStation": 36.0,
+                    "pollingPercStation": 100.0,
+                    "recImpCom": 7.0,
+                    "recurridos": 0.0,
+                    "sobres": 7147.0,
+                    "totalVotos": 7093.0,
+                    "valid": 7005.0,
+                    "umbral": 0.0,
+                    "calcPerc": "V",
+                    "showCargos": 1.0,
+                    "isCircus": 1.0
+                },
+                {
+                    "scopeId": "000000000000000000030d6c",
+                    "name": "Río Chico",
+                    "codigo": "20004",
+                    "envio": 127.0,
+                    "abstencion": 1196.0,
+                    "afirmativos": 1624.0,
+                    "blancos": 1022.0,
+                    "census": 3886.0,
+                    "comando": 12.0,
+                    "electores": 1693.0,
+                    "impugnados": 0.0,
+                    "nulos": 29.0,
+                    "numStation": 14.0,
+                    "partidos": [
+                        {
+                            "name": "LA LIBERTAD AVANZA",
+                            "code": "135",
+                            "codTel": "135",
+                            "codLogo": "000135",
+                            "color": "#AABBAA",
+                            "votos": 680.0,
+                            "perc": 25.69,
+                            "percCarg": 25.69,
+                            "listas": [
+                                {
+                                    "code": "3016",
+                                    "nombre": "A- LIBERTAD POR SIEMPRE",
+                                    "candidatos": [
+                                        "JAVIER GERARDO MILEI",
+                                        "VICTORIA VILLARRUEL"
+                                    ],
+                                    "votos": 680.0,
+                                    "perc": 100.0,
+                                    "percAbs": 25.69
+                                }
+                            ]
+                        },
+                        {
+                            "name": "UNION POR LA PATRIA",
+                            "code": "134",
+                            "codTel": "134",
+                            "codLogo": "000134",
+                            "color": "#AABBAA",
+                            "votos": 523.0,
+                            "perc": 19.76,
+                            "percCarg": 19.76,
+                            "listas": [
+                                {
+                                    "code": "3005",
+                                    "nombre": "A- CELESTE Y BLANCA",
+                                    "candidatos": [
+                                        "SERGIO TOMAS MASSA",
+                                        "AGUSTIN ROSSI"
+                                    ],
+                                    "votos": 434.0,
+                                    "perc": 82.98,
+                                    "percAbs": 16.4
+                                },
+                                {
+                                    "code": "3006",
+                                    "nombre": "B- JUSTA Y SOBERANA",
+                                    "candidatos": [
+                                        "JUAN GRABOIS",
+                                        "PAULA ABAL MEDINA"
+                                    ],
+                                    "votos": 89.0,
+                                    "perc": 17.01,
+                                    "percAbs": 3.36
+                                }
+                            ]
+                        },
+                        {
+                            "name": "JUNTOS POR EL CAMBIO",
+                            "code": "132",
+                            "codTel": "132",
+                            "codLogo": "000132",
+                            "color": "#AABBAA",
+                            "votos": 309.0,
+                            "perc": 11.67,
+                            "percCarg": 11.67,
+                            "listas": [
+                                {
+                                    "code": "3008",
+                                    "nombre": "B- LA FUERZA DEL CAMBIO",
+                                    "candidatos": [
+                                        "PATRICIA BULLRICH",
+                                        "LUIS PETRI"
+                                    ],
+                                    "votos": 190.0,
+                                    "perc": 61.48,
+                                    "percAbs": 7.18
+                                },
+                                {
+                                    "code": "3007",
+                                    "nombre": "A- EL CAMBIO DE NUESTRAS VIDAS",
+                                    "candidatos": [
+                                        "HORACIO ANTONIO RODRIGUEZ LARRETA",
+                                        "GERARDO MORALES"
+                                    ],
+                                    "votos": 119.0,
+                                    "perc": 38.51,
+                                    "percAbs": 4.49
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD",
+                            "code": "136",
+                            "codTel": "136",
+                            "codLogo": "000136",
+                            "color": "#AABBAA",
+                            "votos": 51.0,
+                            "perc": 1.92,
+                            "percCarg": 1.92,
+                            "listas": [
+                                {
+                                    "code": "3010",
+                                    "nombre": "B- UNIDAD DE LUCHADORES Y LA IZQUIERDA",
+                                    "candidatos": [
+                                        "GABRIEL ESTEBAN SOLANO",
+                                        "VILMA RIPOLL"
+                                    ],
+                                    "votos": 37.0,
+                                    "perc": 72.54,
+                                    "percAbs": 1.39
+                                },
+                                {
+                                    "code": "3009",
+                                    "nombre": "A- UNIR Y FORTALECER LA IZQUIERDA",
+                                    "candidatos": [
+                                        "MYRIAM TERESA BREGMAN",
+                                        "NICOLAS DEL CAÑO"
+                                    ],
+                                    "votos": 14.0,
+                                    "perc": 27.45,
+                                    "percAbs": 0.52
+                                }
+                            ]
+                        },
+                        {
+                            "name": "HACEMOS POR NUESTRO PAIS",
+                            "code": "133",
+                            "codTel": "133",
+                            "codLogo": "000133",
+                            "color": "#AABBAA",
+                            "votos": 38.0,
+                            "perc": 1.43,
+                            "percCarg": 1.43,
+                            "listas": [
+                                {
+                                    "code": "3001",
+                                    "nombre": "A- HACEMOS",
+                                    "candidatos": [
+                                        "JUAN SCHIARETTI",
+                                        "FLORENCIO RANDAZZO"
+                                    ],
+                                    "votos": 38.0,
+                                    "perc": 100.0,
+                                    "percAbs": 1.43
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE PATRIOTA FEDERAL",
+                            "code": "95",
+                            "codTel": "95",
+                            "codLogo": "000095",
+                            "color": "#AABBAA",
+                            "votos": 5.0,
+                            "perc": 0.18,
+                            "percCarg": 0.18,
+                            "listas": [
+                                {
+                                    "code": "3021",
+                                    "nombre": "A- PRIMERO LA PATRIA",
+                                    "candidatos": [
+                                        "ALEJANDRO CESAR BIONDINI",
+                                        "MARIEL AVENDAÑO"
+                                    ],
+                                    "votos": 5.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.18
+                                }
+                            ]
+                        },
+                        {
+                            "name": "POLITICA OBRERA",
+                            "code": "92",
+                            "codTel": "92",
+                            "codLogo": "000092",
+                            "color": "#AABBAA",
+                            "votos": 5.0,
+                            "perc": 0.18,
+                            "percCarg": 0.18,
+                            "listas": [
+                                {
+                                    "code": "3020",
+                                    "nombre": "A- UNIDAD OBRERA",
+                                    "candidatos": [
+                                        "MARCELO ARMANDO RAMAL",
+                                        "PATRICIA URONES"
+                                    ],
+                                    "votos": 5.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.18
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO DE ACCION VECINAL",
+                            "code": "57",
+                            "codTel": "57",
+                            "codLogo": "000057",
+                            "color": "#AABBAA",
+                            "votos": 4.0,
+                            "perc": 0.15,
+                            "percCarg": 0.15,
+                            "listas": [
+                                {
+                                    "code": "3025",
+                                    "nombre": "A- COMPROMISO VECINAL",
+                                    "candidatos": [
+                                        "RAUL HUMBERTO ALBARRACIN",
+                                        "SERGIO PASTORE"
+                                    ],
+                                    "votos": 4.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.15
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO AL SOCIALISMO",
+                            "code": "13",
+                            "codTel": "13",
+                            "codLogo": "000013",
+                            "color": "#AABBAA",
+                            "votos": 3.0,
+                            "perc": 0.11,
+                            "percCarg": 0.11,
+                            "listas": [
+                                {
+                                    "code": "3017",
+                                    "nombre": "A- IZQUIERDA ANTICAPITALISTA",
+                                    "candidatos": [
+                                        "MANUELA JIMENA CASTAÑEIRA",
+                                        "LUCAS RUIZ"
+                                    ],
+                                    "votos": 3.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.11
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD",
+                            "code": "90",
+                            "codTel": "90",
+                            "codLogo": "000090",
+                            "color": "#AABBAA",
+                            "votos": 3.0,
+                            "perc": 0.11,
+                            "percCarg": 0.11,
+                            "listas": [
+                                {
+                                    "code": "3027",
+                                    "nombre": "B- CONFEDERAL",
+                                    "candidatos": [
+                                        "GABRIEL SANTIAGO CÚNEO",
+                                        "GUSTAVO BARRANCO"
+                                    ],
+                                    "votos": 2.0,
+                                    "perc": 66.66,
+                                    "percAbs": 0.07
+                                },
+                                {
+                                    "code": "3026",
+                                    "nombre": "A- DIGNIDAD",
+                                    "candidatos": [
+                                        "RAUL ANIBAL CASTELLS",
+                                        "ADRIANA REINOSO"
+                                    ],
+                                    "votos": 1.0,
+                                    "perc": 33.33,
+                                    "percAbs": 0.03
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MOVIMIENTO LIBRES DEL SUR",
+                            "code": "40",
+                            "codTel": "40",
+                            "codLogo": "000040",
+                            "color": "#AABBAA",
+                            "votos": 3.0,
+                            "perc": 0.11,
+                            "percCarg": 0.11,
+                            "listas": [
+                                {
+                                    "code": "3019",
+                                    "nombre": "A- AZUL Y ROJO",
+                                    "candidatos": [
+                                        "JESUS ARNALDO ESCOBAR",
+                                        "MARIANELLA LEZAMA HID"
+                                    ],
+                                    "votos": 3.0,
+                                    "perc": 100.0,
+                                    "percAbs": 0.11
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FRENTE LIBER.AR",
+                            "code": "131",
+                            "codTel": "131",
+                            "codLogo": "000131",
+                            "color": "#AABBAA",
+                            "votos": 0.0,
+                            "perc": 0.0,
+                            "percCarg": 0.0,
+                            "listas": [
+                                {
+                                    "code": "3002",
+                                    "nombre": "A- DEMOS",
+                                    "candidatos": [
+                                        "NAZARENO GABRIEL ETCHEPARE",
+                                        "FERNANDO LORENZO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3003",
+                                    "nombre": "B- RECONQUISTA",
+                                    "candidatos": [
+                                        "RAMIRO EDUARDO VASENA",
+                                        "VICTOR LAGONEGRO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3004",
+                                    "nombre": "C- ANTICORRUPCIÓN",
+                                    "candidatos": [
+                                        "JULIO DONATO BARBARO",
+                                        "RAMONA PUCHETA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PRINCIPIOS Y VALORES",
+                            "code": "137",
+                            "codTel": "137",
+                            "codLogo": "000137",
+                            "color": "#AABBAA",
+                            "votos": 0.0,
+                            "perc": 0.0,
+                            "percCarg": 0.0,
+                            "listas": [
+                                {
+                                    "code": "3011",
+                                    "nombre": "1A- TIERRA, TECHO  Y TRABAJO",
+                                    "candidatos": [
+                                        "MARIO GUILLERMO MORENO",
+                                        "LEONARDO RUBEN FABRE"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3012",
+                                    "nombre": "2B- TRANSFORMAR",
+                                    "candidatos": [
+                                        "ELIODORO MARTINEZ",
+                                        "VICENTE SOUTO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3013",
+                                    "nombre": "3C- TRES BANDERAS",
+                                    "candidatos": [
+                                        "JORGE EDUARDO OLIVER",
+                                        "EZEQUIEL BRITOS SAN MARTIN"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3014",
+                                    "nombre": "4D- GENTE DE TRABAJO",
+                                    "candidatos": [
+                                        "CARINA PAOLA BARTOLINI",
+                                        "MABEL GOMEZ"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3015",
+                                    "nombre": "5E- LABORISTA",
+                                    "candidatos": [
+                                        "PAULA LORENA ARIAS",
+                                        "WALTER VERA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PROYECTO JOVEN",
+                            "code": "94",
+                            "codTel": "94",
+                            "codLogo": "000094",
+                            "color": "#AABBAA",
+                            "votos": 0.0,
+                            "perc": 0.0,
+                            "percCarg": 0.0,
+                            "listas": [
+                                {
+                                    "code": "3022",
+                                    "nombre": "A- COALICION PAZ DEMOCRACIA SOBERANIA",
+                                    "candidatos": [
+                                        "OSCAR ALFREDO RAMON GIARDINELLI",
+                                        "BARBARA MARA SOLERNOU GALLARDO"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3023",
+                                    "nombre": "B- PATRIA UNIDA",
+                                    "candidatos": [
+                                        "MARTIN MIGUEL AYERBE ORTIZ",
+                                        "HUGO MAURICIO EZEQUIEL RODRIGUEZ"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                },
+                                {
+                                    "code": "3024",
+                                    "nombre": "C- TODEX",
+                                    "candidatos": [
+                                        "REINA XIOMARA IBAÑEZ",
+                                        "GONZALO RODRIGO IBARRA"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "UNION DEL CENTRO DEMOCRATICO",
+                            "code": "20",
+                            "codTel": "20",
+                            "codLogo": "000020",
+                            "color": "#AABBAA",
+                            "votos": 0.0,
+                            "perc": 0.0,
+                            "percCarg": 0.0,
+                            "listas": [
+                                {
+                                    "code": "3018",
+                                    "nombre": "A- APERTURA LIBERAL ARGENTINA",
+                                    "candidatos": [
+                                        "ANDRES GABRIEL PASSAMONTI",
+                                        "PAMELA FERNANDEZ"
+                                    ],
+                                    "votos": 0.0,
+                                    "perc": 0.0,
+                                    "percAbs": 0.0
+                                }
+                            ]
+                        }
+                    ],
+                    "participation": 69.22,
+                    "percAbstencion": 30.77,
+                    "percAfirmativos": 60.37,
+                    "percBlancos": 37.99,
+                    "percComando": 0.44,
+                    "percImpugnados": 0.0,
+                    "percNulos": 1.07,
+                    "percRecImpCom": 0.55,
+                    "percRecurridos": 0.11,
+                    "percValid": 98.36,
+                    "pollingCensus": 3886.0,
+                    "pollingNumStation": 14.0,
+                    "pollingPercStation": 100.0,
+                    "recImpCom": 15.0,
+                    "recurridos": 3.0,
+                    "sobres": 1693.0,
+                    "totalVotos": 2690.0,
+                    "valid": 2646.0,
+                    "umbral": 0.0,
+                    "calcPerc": "V",
+                    "showCargos": 1.0,
+                    "isCircus": 1.0
+                }
+            ]
+        }
+    ],
+    "id": {
+        "idAmbito": {
+            "level": 2.0,
+            "codigo": "20",
+            "name": "Santa Cruz",
+            "scopeId": "0000000000000000000000ca"
+        },
+        "eleccionId": 1.0,
+        "envio": 127.0
+    },
+    "census": 265400.0,
+    "pollingCensus": 262820.0,
+    "numStation": 911.0,
+    "pollingNumStation": 901.0,
+    "pollingPercCensus": 99.02,
+    "pollingPercStation": 98.9,
+    "electores": 136487.0,
+    "sobres": 136351.0,
+    "nulos": 2522.0,
+    "percNulos": 1.37,
+    "recurridos": 105.0,
+    "percRecurridos": 0.05,
+    "blancos": 52228.0,
+    "percBlancos": 28.53,
+    "comando": 211.0,
+    "percComando": 0.11,
+    "impugnados": 30.0,
+    "percImpugnados": 0.01,
+    "totalVotos": 183063.0,
+    "afirmativos": 127967.0,
+    "percAfirmativos": 69.9,
+    "abstencion": 79757.0,
+    "percAbstencion": 30.34,
+    "valid": 180195.0,
+    "percValid": 98.43,
+    "recImpCom": 346.0,
+    "percRecImpCom": 0.18,
+    "participation": 69.65,
+    "date": "Aug 14, 2023, 5:27:40 AM",
+    "isCircus": 1.0,
+    "umbral": 0.0,
+    "calcPerc": "V",
+    "cargos": 0.0,
+    "showCargos": 1.0,
+    "hayEmpates": false,
+    "partidos": [
+        {
+            "code": "135",
+            "name": "LA LIBERTAD AVANZA",
+            "codTel": "135",
+            "codLogo": "000135",
+            "votos": 52189.0,
+            "perc": 28.96,
+            "percCarg": 28.96,
+            "cargos": 0.0,
+            "listas": [
+                {
+                    "orden": 0.0,
+                    "code": "01003016",
+                    "nombre": "A- LIBERTAD POR SIEMPRE",
+                    "votos": 52189.0,
+                    "perc": 100.0,
+                    "percAbs": 28.96,
+                    "candidatos": [
+                        "JAVIER GERARDO MILEI",
+                        "VICTORIA VILLARRUEL"
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "134",
+            "name": "UNION POR LA PATRIA",
+            "codTel": "134",
+            "codLogo": "000134",
+            "votos": 38479.0,
+            "perc": 21.35,
+            "percCarg": 21.35,
+            "cargos": 0.0,
+            "listas": [
+                {
+                    "orden": 0.0,
+                    "code": "01003005",
+                    "nombre": "A- CELESTE Y BLANCA",
+                    "votos": 29622.0,
+                    "perc": 76.98,
+                    "percAbs": 16.43,
+                    "candidatos": [
+                        "SERGIO TOMAS MASSA",
+                        "AGUSTIN ROSSI"
+                    ]
+                },
+                {
+                    "orden": 0.0,
+                    "code": "01003006",
+                    "nombre": "B- JUSTA Y SOBERANA",
+                    "votos": 8857.0,
+                    "perc": 23.01,
+                    "percAbs": 4.91,
+                    "candidatos": [
+                        "JUAN GRABOIS",
+                        "PAULA ABAL MEDINA"
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "132",
+            "name": "JUNTOS POR EL CAMBIO",
+            "codTel": "132",
+            "codLogo": "000132",
+            "votos": 28111.0,
+            "perc": 15.6,
+            "percCarg": 15.6,
+            "cargos": 0.0,
+            "listas": [
+                {
+                    "orden": 0.0,
+                    "code": "01003008",
+                    "nombre": "B- LA FUERZA DEL CAMBIO",
+                    "votos": 17507.0,
+                    "perc": 62.27,
+                    "percAbs": 9.71,
+                    "candidatos": [
+                        "PATRICIA BULLRICH",
+                        "LUIS PETRI"
+                    ]
+                },
+                {
+                    "orden": 0.0,
+                    "code": "01003007",
+                    "nombre": "A- EL CAMBIO DE NUESTRAS VIDAS",
+                    "votos": 10604.0,
+                    "perc": 37.72,
+                    "percAbs": 5.88,
+                    "candidatos": [
+                        "HORACIO ANTONIO RODRIGUEZ LARRETA",
+                        "GERARDO MORALES"
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "133",
+            "name": "HACEMOS POR NUESTRO PAIS",
+            "codTel": "133",
+            "codLogo": "000133",
+            "votos": 3679.0,
+            "perc": 2.04,
+            "percCarg": 2.04,
+            "cargos": 0.0,
+            "listas": [
+                {
+                    "orden": 0.0,
+                    "code": "01003001",
+                    "nombre": "A- HACEMOS",
+                    "votos": 3679.0,
+                    "perc": 100.0,
+                    "percAbs": 2.04,
+                    "candidatos": [
+                        "JUAN SCHIARETTI",
+                        "FLORENCIO RANDAZZO"
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "136",
+            "name": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD",
+            "codTel": "136",
+            "codLogo": "000136",
+            "votos": 3294.0,
+            "perc": 1.82,
+            "percCarg": 1.82,
+            "cargos": 0.0,
+            "listas": [
+                {
+                    "orden": 0.0,
+                    "code": "01003009",
+                    "nombre": "A- UNIR Y FORTALECER LA IZQUIERDA",
+                    "votos": 1856.0,
+                    "perc": 56.34,
+                    "percAbs": 1.02,
+                    "candidatos": [
+                        "MYRIAM TERESA BREGMAN",
+                        "NICOLAS DEL CAÑO"
+                    ]
+                },
+                {
+                    "orden": 0.0,
+                    "code": "01003010",
+                    "nombre": "B- UNIDAD DE LUCHADORES Y LA IZQUIERDA",
+                    "votos": 1438.0,
+                    "perc": 43.65,
+                    "percAbs": 0.79,
+                    "candidatos": [
+                        "GABRIEL ESTEBAN SOLANO",
+                        "VILMA RIPOLL"
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "40",
+            "name": "MOVIMIENTO LIBRES DEL SUR",
+            "codTel": "40",
+            "codLogo": "000040",
+            "votos": 607.0,
+            "perc": 0.33,
+            "percCarg": 0.33,
+            "cargos": 0.0,
+            "listas": [
+                {
+                    "orden": 0.0,
+                    "code": "01003019",
+                    "nombre": "A- AZUL Y ROJO",
+                    "votos": 607.0,
+                    "perc": 100.0,
+                    "percAbs": 0.33,
+                    "candidatos": [
+                        "JESUS ARNALDO ESCOBAR",
+                        "MARIANELLA LEZAMA HID"
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "13",
+            "name": "MOVIMIENTO AL SOCIALISMO",
+            "codTel": "13",
+            "codLogo": "000013",
+            "votos": 414.0,
+            "perc": 0.22,
+            "percCarg": 0.22,
+            "cargos": 0.0,
+            "listas": [
+                {
+                    "orden": 0.0,
+                    "code": "01003017",
+                    "nombre": "A- IZQUIERDA ANTICAPITALISTA",
+                    "votos": 414.0,
+                    "perc": 100.0,
+                    "percAbs": 0.22,
+                    "candidatos": [
+                        "MANUELA JIMENA CASTAÑEIRA",
+                        "LUCAS RUIZ"
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "92",
+            "name": "POLITICA OBRERA",
+            "codTel": "92",
+            "codLogo": "000092",
+            "votos": 403.0,
+            "perc": 0.22,
+            "percCarg": 0.22,
+            "cargos": 0.0,
+            "listas": [
+                {
+                    "orden": 0.0,
+                    "code": "01003020",
+                    "nombre": "A- UNIDAD OBRERA",
+                    "votos": 403.0,
+                    "perc": 100.0,
+                    "percAbs": 0.22,
+                    "candidatos": [
+                        "MARCELO ARMANDO RAMAL",
+                        "PATRICIA URONES"
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "90",
+            "name": "MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD",
+            "codTel": "90",
+            "codLogo": "000090",
+            "votos": 359.0,
+            "perc": 0.19,
+            "percCarg": 0.19,
+            "cargos": 0.0,
+            "listas": [
+                {
+                    "orden": 0.0,
+                    "code": "01003027",
+                    "nombre": "B- CONFEDERAL",
+                    "votos": 334.0,
+                    "perc": 93.03,
+                    "percAbs": 0.18,
+                    "candidatos": [
+                        "GABRIEL SANTIAGO CÚNEO",
+                        "GUSTAVO BARRANCO"
+                    ]
+                },
+                {
+                    "orden": 0.0,
+                    "code": "01003026",
+                    "nombre": "A- DIGNIDAD",
+                    "votos": 25.0,
+                    "perc": 6.96,
+                    "percAbs": 0.01,
+                    "candidatos": [
+                        "RAUL ANIBAL CASTELLS",
+                        "ADRIANA REINOSO"
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "95",
+            "name": "FRENTE PATRIOTA FEDERAL",
+            "codTel": "95",
+            "codLogo": "000095",
+            "votos": 209.0,
+            "perc": 0.11,
+            "percCarg": 0.11,
+            "cargos": 0.0,
+            "listas": [
+                {
+                    "orden": 0.0,
+                    "code": "01003021",
+                    "nombre": "A- PRIMERO LA PATRIA",
+                    "votos": 209.0,
+                    "perc": 100.0,
+                    "percAbs": 0.11,
+                    "candidatos": [
+                        "ALEJANDRO CESAR BIONDINI",
+                        "MARIEL AVENDAÑO"
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "57",
+            "name": "MOVIMIENTO DE ACCION VECINAL",
+            "codTel": "57",
+            "codLogo": "000057",
+            "votos": 138.0,
+            "perc": 0.07,
+            "percCarg": 0.07,
+            "cargos": 0.0,
+            "listas": [
+                {
+                    "orden": 0.0,
+                    "code": "01003025",
+                    "nombre": "A- COMPROMISO VECINAL",
+                    "votos": 138.0,
+                    "perc": 100.0,
+                    "percAbs": 0.07,
+                    "candidatos": [
+                        "RAUL HUMBERTO ALBARRACIN",
+                        "SERGIO PASTORE"
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "137",
+            "name": "PRINCIPIOS Y VALORES",
+            "codTel": "137",
+            "codLogo": "000137",
+            "votos": 65.0,
+            "perc": 0.03,
+            "percCarg": 0.03,
+            "cargos": 0.0,
+            "listas": [
+                {
+                    "orden": 0.0,
+                    "code": "01003011",
+                    "nombre": "1A- TIERRA, TECHO  Y TRABAJO",
+                    "votos": 65.0,
+                    "perc": 100.0,
+                    "percAbs": 0.03,
+                    "candidatos": [
+                        "MARIO GUILLERMO MORENO",
+                        "LEONARDO RUBEN FABRE"
+                    ]
+                },
+                {
+                    "orden": 0.0,
+                    "code": "01003012",
+                    "nombre": "2B- TRANSFORMAR",
+                    "votos": 0.0,
+                    "perc": 0.0,
+                    "percAbs": 0.0,
+                    "candidatos": [
+                        "ELIODORO MARTINEZ",
+                        "VICENTE SOUTO"
+                    ]
+                },
+                {
+                    "orden": 0.0,
+                    "code": "01003013",
+                    "nombre": "3C- TRES BANDERAS",
+                    "votos": 0.0,
+                    "perc": 0.0,
+                    "percAbs": 0.0,
+                    "candidatos": [
+                        "JORGE EDUARDO OLIVER",
+                        "EZEQUIEL BRITOS SAN MARTIN"
+                    ]
+                },
+                {
+                    "orden": 0.0,
+                    "code": "01003014",
+                    "nombre": "4D- GENTE DE TRABAJO",
+                    "votos": 0.0,
+                    "perc": 0.0,
+                    "percAbs": 0.0,
+                    "candidatos": [
+                        "CARINA PAOLA BARTOLINI",
+                        "MABEL GOMEZ"
+                    ]
+                },
+                {
+                    "orden": 0.0,
+                    "code": "01003015",
+                    "nombre": "5E- LABORISTA",
+                    "votos": 0.0,
+                    "perc": 0.0,
+                    "percAbs": 0.0,
+                    "candidatos": [
+                        "PAULA LORENA ARIAS",
+                        "WALTER VERA"
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "131",
+            "name": "FRENTE LIBER.AR",
+            "codTel": "131",
+            "codLogo": "000131",
+            "votos": 12.0,
+            "perc": 0.01,
+            "percCarg": 0.01,
+            "cargos": 0.0,
+            "listas": [
+                {
+                    "orden": 0.0,
+                    "code": "01003002",
+                    "nombre": "A- DEMOS",
+                    "votos": 11.0,
+                    "perc": 91.66,
+                    "percAbs": 0.01,
+                    "candidatos": [
+                        "NAZARENO GABRIEL ETCHEPARE",
+                        "FERNANDO LORENZO"
+                    ]
+                },
+                {
+                    "orden": 0.0,
+                    "code": "01003004",
+                    "nombre": "C- ANTICORRUPCIÓN",
+                    "votos": 1.0,
+                    "perc": 8.33,
+                    "percAbs": 0.01,
+                    "candidatos": [
+                        "JULIO DONATO BARBARO",
+                        "RAMONA PUCHETA"
+                    ]
+                },
+                {
+                    "orden": 0.0,
+                    "code": "01003003",
+                    "nombre": "B- RECONQUISTA",
+                    "votos": 0.0,
+                    "perc": 0.0,
+                    "percAbs": 0.0,
+                    "candidatos": [
+                        "RAMIRO EDUARDO VASENA",
+                        "VICTOR LAGONEGRO"
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "94",
+            "name": "PROYECTO JOVEN",
+            "codTel": "94",
+            "codLogo": "000094",
+            "votos": 4.0,
+            "perc": 0.01,
+            "percCarg": 0.01,
+            "cargos": 0.0,
+            "listas": [
+                {
+                    "orden": 0.0,
+                    "code": "01003023",
+                    "nombre": "B- PATRIA UNIDA",
+                    "votos": 3.0,
+                    "perc": 75.0,
+                    "percAbs": 0.01,
+                    "candidatos": [
+                        "MARTIN MIGUEL AYERBE ORTIZ",
+                        "HUGO MAURICIO EZEQUIEL RODRIGUEZ"
+                    ]
+                },
+                {
+                    "orden": 0.0,
+                    "code": "01003022",
+                    "nombre": "A- COALICION PAZ DEMOCRACIA SOBERANIA",
+                    "votos": 1.0,
+                    "perc": 25.0,
+                    "percAbs": 0.01,
+                    "candidatos": [
+                        "OSCAR ALFREDO RAMON GIARDINELLI",
+                        "BARBARA MARA SOLERNOU GALLARDO"
+                    ]
+                },
+                {
+                    "orden": 0.0,
+                    "code": "01003024",
+                    "nombre": "C- TODEX",
+                    "votos": 0.0,
+                    "perc": 0.0,
+                    "percAbs": 0.0,
+                    "candidatos": [
+                        "REINA XIOMARA IBAÑEZ",
+                        "GONZALO RODRIGO IBARRA"
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "20",
+            "name": "UNION DEL CENTRO DEMOCRATICO",
+            "codTel": "20",
+            "codLogo": "000020",
+            "votos": 4.0,
+            "perc": 0.01,
+            "percCarg": 0.01,
+            "cargos": 0.0,
+            "listas": [
+                {
+                    "orden": 0.0,
+                    "code": "01003018",
+                    "nombre": "A- APERTURA LIBERAL ARGENTINA",
+                    "votos": 4.0,
+                    "perc": 100.0,
+                    "percAbs": 0.01,
+                    "candidatos": [
+                        "ANDRES GABRIEL PASSAMONTI",
+                        "PAMELA FERNANDEZ"
+                    ]
+                }
+            ]
+        }
+    ]
+}
