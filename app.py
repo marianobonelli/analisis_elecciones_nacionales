@@ -105,6 +105,9 @@ def calcular_porcentaje_total(df):
 
 def main():
     st.title("Análisis de Elecciones Nacionales")
+    st.markdown("""
+                [![LinkedIn Badge](https://img.shields.io/badge/marianobonelli-LinkedIn-blue)](https://www.linkedin.com/in/mariano-francisco-bonelli/) [![Twitter Badge](https://img.shields.io/badge/marianobonelli-Twitter-blue?logo=twitter)](https://twitter.com/marianobonelli)
+                """)
 
     # Seleccionar Env, Scope y Tipo de Gráfico
     env = st.selectbox("Elecciones:", ['GENERALES', 'PASO'])
