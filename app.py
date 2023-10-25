@@ -61,11 +61,10 @@ def mostrar_heatmap_votos(df):
     figsize = (max(10, len(df.columns)*1), max(8, len(df.index)*0.3))
 
     plt.figure(figsize=figsize)
-    sns.heatmap(df, cmap="YlGnBu", annot=True, fmt=fmt, linewidths=.5, vmax=vmax, cbar=False, alpha=0.7)
+    sns.heatmap(df, cmap="YlGnBu", annot=True, fmt=fmt, linewidths=.5, vmax=vmax, cbar=False)
     plt.title("Votos")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.show()
 
 def mostrar_heatmap_porcentaje_total(df):
     total_votos = df.values.sum()
@@ -76,11 +75,10 @@ def mostrar_heatmap_porcentaje_total(df):
     df_percentage.loc['TOTAL'] = df_percentage.sum(axis=0)
 
     plt.figure(figsize=(max(10, len(df.columns)*1), max(8, len(df.index)*0.3)))
-    sns.heatmap(df_percentage, cmap="YlGnBu", annot=True, fmt='.2f', linewidths=.5, vmax=50, cbar=False, alpha=0.7)
+    sns.heatmap(df_percentage, cmap="YlGnBu", annot=True, fmt='.2f', linewidths=.5, vmax=50, cbar=False)
     plt.title("Porcentaje sobre el total")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.show()
 
     return df_percentage
 
@@ -93,11 +91,10 @@ def mostrar_heatmap_porcentaje_partido(df, total_col):
     df_percentage.loc['TOTAL'] = df_percentage.sum(axis=0)
 
     plt.figure(figsize=(max(10, len(df.columns)*1), max(8, len(df.index)*0.3)))
-    sns.heatmap(df_percentage, cmap="YlGnBu", annot=True, fmt='.2f', linewidths=.5, vmax=50, cbar=False, alpha=0.7)
+    sns.heatmap(df_percentage, cmap="YlGnBu", annot=True, fmt='.2f', linewidths=.5, vmax=50, cbar=False)
     plt.title("Porcentaje por partido")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.show()
 
 def calcular_porcentaje_total(df):
     total_votos = df.values.sum()
@@ -123,7 +120,7 @@ def main():
     elif graph_type == "Porcentaje Total":
         df_percentage_total = calcular_porcentaje_total(df)
         plt.figure(figsize=(max(10, len(df.columns)*1), max(8, len(df.index)*0.3)))
-        sns.heatmap(df_percentage_total, cmap="YlGnBu", annot=True, fmt='.2f', linewidths=.5, vmax=50, cbar=False, alpha=0.7)
+        sns.heatmap(df_percentage_total, cmap="YlGnBu", annot=True, fmt='.2f', linewidths=.5, vmax=50, cbar=False)
         plt.title("Porcentaje sobre el total")
         plt.xticks(rotation=45)
         plt.tight_layout()
