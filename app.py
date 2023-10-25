@@ -137,6 +137,12 @@ def calcular_porcentaje_total(df):
     df_percentage.loc['TOTAL'] = df_percentage.sum(axis=0)
     return df_percentage
 
+def reordenar_columnas(df):
+    if 'Otros' in df.columns:
+        columnas_ordenadas = ['Otros'] + [col for col in df.columns if col != 'Otros']
+        df = df[columnas_ordenadas]
+    return df
+
 def main():
     st.title("Análisis de Elecciones Nacionales")
     st.markdown("""
@@ -145,7 +151,7 @@ def main():
 
     # Seleccionar Env, Scope y Tipo de Gráfico
     env = st.selectbox("Elecciones:", ['GENERALES', 'PASO', 'DIFERENCIA'])
-    default_index = list(indice.keys()).index('Nacionales')
+    default_index = list(indice.keys()).index('Nacionales') # Asegúrate de que 'indice' esté definido
     scope = st.selectbox("Nivel de análisis:", list(indice.keys()), index=default_index)
 
     if env == 'DIFERENCIA':
@@ -169,6 +175,7 @@ def main():
         if 'Otros' not in df_generales.columns:
             df_generales['Otros'] = 0
         df = df_generales - df_paso
+        df = reordenar_columnas(df)  # Reordenar las columnas
     
     if graph_type == "Votos":
         mostrar_heatmap_votos(df)
