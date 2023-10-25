@@ -88,7 +88,7 @@ def agregar_total(df):
 def mostrar_heatmap_votos(df):
     df = agregar_total(df.copy())
     fmt = ','
-    vmax = np.nanmax(df.drop('TOTAL', errors='ignore').values)  # Valor máximo sin considerar totales
+    vmax = np.nanmax(df.drop('TOTAL', errors='ignore').values)
     figsize = (max(10, len(df.columns)*1), max(8, len(df.index)*0.3))
 
     plt.figure(figsize=figsize)
@@ -96,6 +96,8 @@ def mostrar_heatmap_votos(df):
     plt.title("Votos")
     plt.xticks(rotation=45)
     plt.tight_layout()
+    
+    return df
 
 def mostrar_heatmap_porcentaje_total(df):
     total_votos = df.values.sum()
@@ -117,7 +119,6 @@ def mostrar_heatmap_porcentaje_partido(df, total_col):
     total_by_party = df.sum(axis=0)
     df_percentage = (df.divide(total_by_party, axis=1)) * 100
 
-    # Copiar la columna TOTAL desde el DataFrame de Porcentaje sobre el total
     df_percentage['TOTAL'] = total_col
     df_percentage.loc['TOTAL'] = df_percentage.sum(axis=0)
 
@@ -126,6 +127,8 @@ def mostrar_heatmap_porcentaje_partido(df, total_col):
     plt.title("Porcentaje por partido")
     plt.xticks(rotation=45)
     plt.tight_layout()
+
+    return df_percentage
 
 def calcular_porcentaje_total(df):
     total_votos = df.values.sum()
@@ -141,24 +144,35 @@ def main():
                 """)
 
     # Seleccionar Env, Scope y Tipo de Gráfico
-    env = st.selectbox("Elecciones:", ['GENERALES', 'PASO'])
+    env = st.selectbox("Elecciones:", ['GENERALES', 'PASO', 'DIFERENCIA'])
     default_index = list(indice.keys()).index('Nacionales')
     scope = st.selectbox("Nivel de análisis:", list(indice.keys()), index=default_index)
-    graph_type = st.selectbox("Tipo de gráfico:", ['Votos', 'Porcentaje Total', 'Porcentaje por Partido'])
 
-    # Generar el DataFrame
-    df = generar_df(env, scope)
-    
+    if env == 'DIFERENCIA':
+        graph_type = st.selectbox("Tipo de gráfico:", ['Votos'])  # Solo permitir "Votos" si la selección es "DIFERENCIA"
+    else:
+        graph_type = st.selectbox("Tipo de gráfico:", ['Votos', 'Porcentaje Total', 'Porcentaje por Partido'])
+
     # Lista de partidos presentes en las elecciones generales
     partidos_generales = ['BLANCOS', 'FRENTE DE IZQ', 'HACEMOS POR N', 'JUNTOS POR EL', 'LA LIBERTAD A', 'UNION POR LA ']
-    
-    # Simplificar el DataFrame para las PASO
-    if env == 'PASO':
-        df = simplificar_df(df, partidos_generales)
 
+    if env != 'DIFERENCIA':
+        df = generar_df(env, scope)
+        if env == 'PASO':
+            df = simplificar_df(df, partidos_generales)
+            if 'Otros' not in df.columns:
+                df['Otros'] = 0
+    else:
+        df_generales = generar_df('GENERALES', scope)
+        df_paso = generar_df('PASO', scope)
+        df_paso = simplificar_df(df_paso, partidos_generales)
+        if 'Otros' not in df_generales.columns:
+            df_generales['Otros'] = 0
+        df = df_generales - df_paso
+    
     if graph_type == "Votos":
         mostrar_heatmap_votos(df)
-        st.pyplot(plt.gcf(), use_container_width=True)  # Mostrar el gráfico en Streamlit
+        st.pyplot(plt.gcf(), use_container_width=True)
     elif graph_type == "Porcentaje Total":
         df_percentage_total = calcular_porcentaje_total(df)
         plt.figure(figsize=(max(10, len(df.columns)*1), max(8, len(df.index)*0.3)))
@@ -166,11 +180,11 @@ def main():
         plt.title("Porcentaje sobre el total")
         plt.xticks(rotation=45)
         plt.tight_layout()
-        st.pyplot(plt.gcf(), use_container_width=True)  # Mostrar el gráfico en Streamlit
+        st.pyplot(plt.gcf(), use_container_width=True)
     elif graph_type == "Porcentaje por Partido":
         df_percentage_total = calcular_porcentaje_total(df)
         mostrar_heatmap_porcentaje_partido(df, df_percentage_total['TOTAL'])
-        st.pyplot(plt.gcf(), use_container_width=True)  # Mostrar el gráfico en Streamlit
+        st.pyplot(plt.gcf(), use_container_width=True)
 
 if __name__ == "__main__":
     main()
