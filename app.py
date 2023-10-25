@@ -59,6 +59,27 @@ def generar_df(env, scope):
 
     return df
 
+def simplificar_df(df, partidos_generales):
+    # Truncar los nombres de los partidos generales a 13 caracteres
+    partidos_generales = [partido[:13] for partido in partidos_generales]
+    
+    # Identificar los partidos que no están en las elecciones generales
+    partidos_a_eliminar = [partido for partido in df.columns if partido not in partidos_generales and partido != 'BLANCOS']
+    
+    # Sumar los votos de esos partidos y crear una nueva columna 'Otros'
+    if partidos_a_eliminar:
+        df['Otros'] = df[partidos_a_eliminar].sum(axis=1)
+    
+    # Eliminar las columnas de los partidos que no están en las elecciones generales
+    df = df.drop(columns=partidos_a_eliminar)
+    
+    # Ordenar las columnas para que 'Otros' esté primera, si existe
+    if 'Otros' in df.columns:
+        columnas = ['Otros'] + [col for col in df.columns if col != 'Otros']
+        df = df[columnas]
+    
+    return df
+
 def agregar_total(df):
     df['TOTAL'] = df.sum(axis=1)
     df.loc['TOTAL'] = df.sum(axis=0)
@@ -127,6 +148,14 @@ def main():
 
     # Generar el DataFrame
     df = generar_df(env, scope)
+    
+    # Lista de partidos presentes en las elecciones generales
+    partidos_generales = ['BLANCOS', 'FRENTE DE IZQ', 'HACEMOS POR N', 'JUNTOS POR EL', 'LA LIBERTAD A', 'UNION POR LA ']
+    
+    # Simplificar el DataFrame para las PASO
+    if env == 'PASO':
+        df = simplificar_df(df, partidos_generales)
+
     if graph_type == "Votos":
         mostrar_heatmap_votos(df)
         st.pyplot(plt.gcf(), use_container_width=True)  # Mostrar el gráfico en Streamlit
