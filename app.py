@@ -4,6 +4,16 @@ import json
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+from PIL import Image
+
+# Cargar la imagen
+page_icon = Image.open("assets/elecciones.png")
+
+st.set_page_config(
+    page_title="Analisis Elecciones 2023",
+    page_icon=page_icon,
+    layout="wide",
+)
 
 # Leer el archivo JSON
 with open('assets/indice.json', 'r', encoding='utf-8') as file:
