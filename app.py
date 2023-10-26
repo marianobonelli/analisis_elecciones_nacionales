@@ -143,6 +143,25 @@ def reordenar_columnas(df):
         df = df[columnas_ordenadas]
     return df
 
+def calcular_diferencia_porcentaje(df_generales, df_paso):
+    # Asegurarse de que ambos DataFrames tienen las mismas columnas
+    for col in df_generales.columns:
+        if col not in df_paso.columns:
+            df_paso[col] = 0
+    for col in df_paso.columns:
+        if col not in df_generales.columns:
+            df_generales[col] = 0
+    
+    # Calcular el porcentaje sobre el total para cada DataFrame
+    df_generales_porcentaje = calcular_porcentaje_total(df_generales)
+    df_paso_porcentaje = calcular_porcentaje_total(df_paso)
+    
+    # Calcular la diferencia en porcentaje
+    df_diferencia = df_generales_porcentaje - df_paso_porcentaje
+    
+    return df_diferencia
+
+
 def main():
     st.title("Análisis de Elecciones Nacionales")
     st.markdown("""
@@ -154,11 +173,6 @@ def main():
     default_index = list(indice.keys()).index('Nacionales') # Asegúrate de que 'indice' esté definido
     scope = st.selectbox("Nivel de análisis:", list(indice.keys()), index=default_index)
 
-    if env == 'DIFERENCIA':
-        graph_type = st.selectbox("Tipo de gráfico:", ['Votos'])  # Solo permitir "Votos" si la selección es "DIFERENCIA"
-    else:
-        graph_type = st.selectbox("Tipo de gráfico:", ['Votos', 'Porcentaje Total', 'Porcentaje por Partido'])
-
     # Lista de partidos presentes en las elecciones generales
     partidos_generales = ['BLANCOS', 'FRENTE DE IZQ', 'HACEMOS POR N', 'JUNTOS POR EL', 'LA LIBERTAD A', 'UNION POR LA ']
 
@@ -168,6 +182,7 @@ def main():
             df = simplificar_df(df, partidos_generales)
             if 'Otros' not in df.columns:
                 df['Otros'] = 0
+        graph_type = st.selectbox("Tipo de gráfico:", ['Votos', 'Porcentaje Total', 'Porcentaje por Partido'])
     else:
         df_generales = generar_df('GENERALES', scope)
         df_paso = generar_df('PASO', scope)
@@ -175,9 +190,21 @@ def main():
         if 'Otros' not in df_generales.columns:
             df_generales['Otros'] = 0
         df = df_generales - df_paso
-        df = reordenar_columnas(df)  # Reordenar las columnas
-    
+        # Nota: No estamos reordenando las columnas aquí para "Porcentaje Total Diferencia"
+        graph_type = st.selectbox("Tipo de gráfico:", ['Votos', 'Porcentaje Total Diferencia'])
+
     if graph_type == "Votos":
+        if env == "DIFERENCIA":
+            # Orden específico de columnas para el gráfico de diferencia de votos
+            orden_columnas = ['Otros', 'BLANCOS', 'FRENTE DE IZQ', 'HACEMOS POR N', 'JUNTOS POR EL', 'LA LIBERTAD A', 'UNION POR LA ', 'TOTAL']
+            
+            # Asegurarse de que todas las columnas en el orden específico estén presentes
+            for columna in orden_columnas:
+                if columna not in df.columns:
+                    df[columna] = 0
+                    
+            df = df[orden_columnas]
+
         mostrar_heatmap_votos(df)
         st.pyplot(plt.gcf(), use_container_width=True)
     elif graph_type == "Porcentaje Total":
@@ -191,6 +218,27 @@ def main():
     elif graph_type == "Porcentaje por Partido":
         df_percentage_total = calcular_porcentaje_total(df)
         mostrar_heatmap_porcentaje_partido(df, df_percentage_total['TOTAL'])
+        st.pyplot(plt.gcf(), use_container_width=True)
+    elif graph_type == "Porcentaje Total Diferencia":
+        df_diferencia_porcentaje = calcular_diferencia_porcentaje(df_generales, df_paso)
+        if 'Otros' not in df_diferencia_porcentaje.columns:
+            df_diferencia_porcentaje['Otros'] = 0
+
+        # Orden específico de columnas
+        orden_columnas = ['Otros', 'BLANCOS', 'FRENTE DE IZQ', 'HACEMOS POR N', 'JUNTOS POR EL', 'LA LIBERTAD A', 'UNION POR LA ', 'TOTAL']
+        
+        # Asegurarse de que todas las columnas en el orden específico estén presentes
+        for columna in orden_columnas:
+            if columna not in df_diferencia_porcentaje.columns:
+                df_diferencia_porcentaje[columna] = 0
+                
+        df_diferencia_porcentaje = df_diferencia_porcentaje[orden_columnas]
+
+        plt.figure(figsize=(max(10, len(df_diferencia_porcentaje.columns)*1), max(8, len(df_diferencia_porcentaje.index)*0.3)))
+        sns.heatmap(df_diferencia_porcentaje, cmap="YlGnBu", annot=True, fmt='.2f', linewidths=.5, vmax=50, cbar=False)
+        plt.title("Diferencia de Porcentaje sobre el Total")
+        plt.xticks(rotation=45)
+        plt.tight_layout()
         st.pyplot(plt.gcf(), use_container_width=True)
 
 if __name__ == "__main__":
