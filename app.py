@@ -235,7 +235,7 @@ def main():
         df_diferencia_porcentaje = df_diferencia_porcentaje[orden_columnas]
 
         plt.figure(figsize=(max(10, len(df_diferencia_porcentaje.columns)*1), max(8, len(df_diferencia_porcentaje.index)*0.3)))
-        sns.heatmap(df_diferencia_porcentaje, cmap="YlGnBu", annot=True, fmt='.2f', linewidths=.5, vmax=50, cbar=False)
+        sns.heatmap(df_diferencia_porcentaje, cmap="RdYlGn", annot=True, fmt='.2f', linewidths=.5,vmin=-10, vmax=10, cbar=False)
         plt.title("Diferencia de Porcentaje sobre el Total")
         plt.xticks(rotation=45)
         plt.tight_layout()
