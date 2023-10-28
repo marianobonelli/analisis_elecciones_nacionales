@@ -208,7 +208,7 @@ if env == 'DIFERENCIA':
             st.dataframe(data=df.round(2), height=altura, use_container_width=True, column_order=column_order)
 
 
-def generar_mapa(graph_type, indice, scope, df, selected_column):
+def generar_mapa(graph_type, indice, scope, df, selected_column, color='YlGnBu'):
     # Ruta al archivo ZIP
     zip_path = f'assets/MAPAS/{indice[scope]}.zip'
 
@@ -242,7 +242,7 @@ def generar_mapa(graph_type, indice, scope, df, selected_column):
                                color=selected_column,
                                center={"lat": gdf.geometry.centroid.y.mean(), "lon": gdf.geometry.centroid.x.mean()},
                                mapbox_style="carto-positron", zoom=5,
-                               color_continuous_scale='YlGnBu', opacity=0.5,
+                               color_continuous_scale=color, opacity=0.5,
                                )
                     
                     fig.update_traces(hovertemplate=None)
@@ -259,17 +259,17 @@ if 'Otros' in df.columns:
     with total:
         generar_mapa(graph_type, indice, scope, df, 'TOTAL')
     with uxp:
-        generar_mapa(graph_type, indice, scope, df, 'UNION POR LA ')
+        generar_mapa(graph_type, indice, scope, df, 'UNION POR LA ', color='blues')
     with lla:
-        generar_mapa(graph_type, indice, scope, df, 'LA LIBERTAD A')
+        generar_mapa(graph_type, indice, scope, df, 'LA LIBERTAD A', color='purp')
     with jxc:
-        generar_mapa(graph_type, indice, scope, df, 'JUNTOS POR EL')
+        generar_mapa(graph_type, indice, scope, df, 'JUNTOS POR EL', color='oranges')
     with hxc:
-        generar_mapa(graph_type, indice, scope, df, 'HACEMOS POR N')
+        generar_mapa(graph_type, indice, scope, df, 'HACEMOS POR N', color='greens')
     with fdi:
-        generar_mapa(graph_type, indice, scope, df, 'FRENTE DE IZQ')
+        generar_mapa(graph_type, indice, scope, df, 'FRENTE DE IZQ', color='reds')
     with blancos:
-        generar_mapa(graph_type, indice, scope, df, 'BLANCOS')
+        generar_mapa(graph_type, indice, scope, df, 'BLANCOS', color='dense')
     with otros:
         generar_mapa(graph_type, indice, scope, df, 'Otros')
 else:
@@ -277,14 +277,14 @@ else:
     with total:
         generar_mapa(graph_type, indice, scope, df, 'TOTAL')
     with uxp:
-        generar_mapa(graph_type, indice, scope, df, 'UNION POR LA ')
+        generar_mapa(graph_type, indice, scope, df, 'UNION POR LA ', color='blues')
     with lla:
-        generar_mapa(graph_type, indice, scope, df, 'LA LIBERTAD A')
+        generar_mapa(graph_type, indice, scope, df, 'LA LIBERTAD A', color='purp')
     with jxc:
-        generar_mapa(graph_type, indice, scope, df, 'JUNTOS POR EL')
+        generar_mapa(graph_type, indice, scope, df, 'JUNTOS POR EL', color='oranges')
     with hxc:
-        generar_mapa(graph_type, indice, scope, df, 'HACEMOS POR N')
+        generar_mapa(graph_type, indice, scope, df, 'HACEMOS POR N', color='greens')
     with fdi:
-        generar_mapa(graph_type, indice, scope, df, 'FRENTE DE IZQ')
+        generar_mapa(graph_type, indice, scope, df, 'FRENTE DE IZQ', color='reds')
     with blancos:
-        generar_mapa(graph_type, indice, scope, df, 'BLANCOS')
+        generar_mapa(graph_type, indice, scope, df, 'BLANCOS', color='dense')
