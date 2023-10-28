@@ -232,6 +232,9 @@ def generar_mapa(graph_type, indice, scope, df, selected_column):
                     # Realizar la unión
                     gdf = gdf.merge(df_reset, left_on='name', right_on='ID')
 
+                    # Establecer 'Scope' como el índice del GeoDataFrame
+                    gdf.set_index('Scope', inplace=True)    
+
                     if graph_type != 'Votos':
                         gdf[selected_column] = gdf[selected_column].round(2)
 
