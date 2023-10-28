@@ -1,4 +1,3 @@
-streamlit==1.28.0
 JSON==2.0.9
 pandas==2.1.0
 pillow==9.5.0
